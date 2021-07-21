@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Root user -->
+    <record id="base.user_root" model="res.users">
+        <field name="login">zeroadm</field>
+    </record>
+
+    <!-- language it -->
+    <record id="base.lang_it" model="res.lang">
+        <field name="active">1</field>
+    </record>
+
+</odoo>
+
