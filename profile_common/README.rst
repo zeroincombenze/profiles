@@ -1,6 +1,6 @@
 
 ===============================
-|icon| profile common 7.0.0.1.0
+|icon| profile common 7.0.0.1.1
 ===============================
 
 
@@ -12,6 +12,7 @@
 
 
 .. contents::
+
 
 
 Overview / Panoramica
@@ -59,9 +60,9 @@ Installation / Installazione
 +---------------------------------+------------------------------------------+
 | |en|                            | |it|                                     |
 +---------------------------------+------------------------------------------+
-| These instruction are just an   | Istruzioni di esempio valide solo per    |
-| example to remember what        | distribuzioni Linux CentOS 7, Ubuntu 14+ |
-| you have to do on Linux.        | e Debian 8+                              |
+| These instructions are just an  | Istruzioni di esempio valide solo per    |
+| example; use on Linux CentOS 7+ | distribuzioni Linux CentOS 7+,           |
+| Ubuntu 14+ and Debian 8+        | Ubuntu 14+ e Debian 8+                   |
 |                                 |                                          |
 | Installation is built with:     | L'installazione è costruita con:         |
 +---------------------------------+------------------------------------------+
@@ -69,20 +70,26 @@ Installation / Installazione
 +---------------------------------+------------------------------------------+
 | Suggested deployment is:        | Posizione suggerita per l'installazione: |
 +---------------------------------+------------------------------------------+
-| /home/odoo/7.0/profiles/                                                   |
+| $HOME/7.0                                                                  |
 +----------------------------------------------------------------------------+
 
 ::
 
     cd $HOME
-    # Tools installation & activation: skip if you have installed this tool
+    # *** Tools installation & activation ***
+    # Case 1: you have not installed zeroincombenze tools
     git clone https://github.com/zeroincombenze/tools.git
-    cd ./tools
+    cd $HOME/tools
     ./install_tools.sh -p
-    source /opt/odoo/dev/activate_tools
-    # Odoo installation
-    odoo_install_repository profiles -b 7.0 -O zero
-    vem create /opt/odoo/VENV-7.0 -O 7.0 -DI
+    source $HOME/devel/activate_tools
+    # Case 2: you have already installed zeroincombenze tools
+    cd $HOME/tools
+    ./install_tools.sh -U
+    source $HOME/devel/activate_tools
+    # *** End of tools installation or upgrade ***
+    # Odoo repository installation; OCB repository must be installed
+    odoo_install_repository profiles -b 7.0 -O zero -o $HOME/7.0
+    vem create $HOME/7.0/venv_odoo -O 7.0 -a "*" -DI -o $HOME/7.0
 
 From UI: go to:
 
@@ -96,25 +103,23 @@ Upgrade / Aggiornamento
 -----------------------
 
 
-+---------------------------------+------------------------------------------+
-| |en|                            | |it|                                     |
-+---------------------------------+------------------------------------------+
-| When you want upgrade and you   | Per aggiornare, se avete installato con  |
-| installed using above           | le istruzioni di cui sopra:              |
-| statements:                     |                                          |
-+---------------------------------+------------------------------------------+
-
 ::
 
     cd $HOME
-    # Tools installation & activation: skip if you have installed this tool
+    # *** Tools installation & activation ***
+    # Case 1: you have not installed zeroincombenze tools
     git clone https://github.com/zeroincombenze/tools.git
-    cd ./tools
+    cd $HOME/tools
     ./install_tools.sh -p
-    source /opt/odoo/dev/activate_tools
-    # Odoo upgrade
-    odoo_install_repository profiles -b 7.0 -O zero -U
-    vem amend /opt/odoo/VENV-7.0 -O 7.0 -DI
+    source $HOME/devel/activate_tools
+    # Case 2: you have already installed zeroincombenze tools
+    cd $HOME/tools
+    ./install_tools.sh -U
+    source $HOME/devel/activate_tools
+    # *** End of tools installation or upgrade ***
+    # Odoo repository upgrade
+    odoo_install_repository profiles -b 7.0 -o $HOME/7.0 -U
+    vem amend $HOME/7.0/venv_odoo -o $HOME/7.0
     # Adjust following statements as per your system
     sudo systemctl restart odoo
 
@@ -153,6 +158,7 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 
 |it| Se hai proposte per migliorare questo modulo, puoi inviare una mail a <cc@shs-av.com> per un iniziale contatto.
 
+
 |
 |
 
@@ -182,6 +188,12 @@ Contributors / Collaboratori
 
 
 
+Maintainer / Manutenzione
+-------------------------
+
+
+
+
 |
 
 ----------------
@@ -197,6 +209,7 @@ che distribuisce e promuove **Odoo** pronto all'uso sulla propria infrastuttura.
 La distribuzione `Zeroincombenze® <https://wiki.zeroincombenze.org/en/Odoo>`__ è progettata per le esigenze del mercato italiano.
 
 
+
 |chat_with_us|
 
 
@@ -204,19 +217,19 @@ La distribuzione `Zeroincombenze® <https://wiki.zeroincombenze.org/en/Odoo>`__ 
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2020-07-02
+Last Update / Ultimo aggiornamento: 2021-07-22
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
-    :alt: Beta
+    :alt: 
 .. |Build Status| image:: https://travis-ci.org/zeroincombenze/profiles.svg?branch=7.0
-    :target: https://travis-ci.org/zeroincombenze/profiles
+    :target: https://travis-ci.com/zeroincombenze/profiles
     :alt: github.com
 .. |license gpl| image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |license opl| image:: https://img.shields.io/badge/licence-OPL-7379c3.svg
-    :target: https://www.odoo.com/documentation/user/9.0/legal/licenses/licenses.html
+    :target: https://www.odoo.com/documentation/user/14.0/legal/licenses/licenses.html
     :alt: License: OPL
 .. |Coverage Status| image:: https://coveralls.io/repos/github/zeroincombenze/profiles/badge.svg?branch=7.0
     :target: https://coveralls.io/github/zeroincombenze/profiles?branch=7.0
