@@ -1,0 +1,84 @@
+# Odoo yaml template for travis-ci
+# __version__=0.2.2
+
+language: python
+sudo: false
+cache:
+  apt: true
+  directories:
+    - $HOME/.cache/pip
+
+python:
+  - "2.7"
+
+virtualenv:
+  system_site_packages: false
+
+git:
+  submodules: false
+  depth: false
+
+services:
+  - postgresql
+  - xvfb
+
+addons:
+  apt:
+    sources:
+      # Search your sources alias here:
+      # https://github.com/travis-ci/apt-source-whitelist/blob/master/ubuntu.json
+    packages:
+      # - build-essential                 # Pre-installed
+      # - curl                            # Pre-installed
+      - expect-dev
+      # - less-plugin-clean-css           # Pre-installed
+      # - lessc                           # Pre-installed
+      - libevent-dev
+      - libffi-dev
+      - libssl-dev
+      # - nodejs                          # Pre-installed
+      # - npm                             # Pre-installed
+      - python-dev
+      # - python-setuptools               # Pre-installed
+      # - wkhtmltopdf                     # Pre-installed
+      - zlib1g
+
+before_install:
+  # Use Zeroincombenze(R) tools
+  - git clone https://github.com/zeroincombenze/tools.git ${HOME}/tools --single-branch --depth=1
+  - ${HOME}/tools/install_tools.sh -qpt
+  - source ${HOME}/devel/activate_tools
+  # - "export DISPLAY=:99.0"
+  # - "sh -e /etc/init.d/xvfb start"
+  # - sleep 3 # give xvfb some time to start
+  # - mv ${HOME}/tools/maintainer-quality-tools ${HOME}
+
+install:
+  - travis_install_env
+  - export EXCLUDE=hw_scanner,hw_escpos,theme_bootswatch,test_impex
+  # - export INCLUDE=$(getaddons.py -m ${HOME}/build/${ODOO_REPO}/odoo/addons ${HOME}/build/${ODOO_REPO}/addons)
+
+env:
+  global:
+  - TRAVIS_DEBUG_MODE="2"
+  - WKHTMLTOPDF_VERSION="0.12.4"
+  - VERSION="10.0" TESTS="0" LINT_CHECK="0" ODOO_TNLBOT="0" WEBSITE_REPO="1"
+
+  matrix:
+    - LINT_CHECK="1" LINT_CHECK_LEVEL="MINIMAL"
+    - TESTS="1" ODOO_REPO="zeroincombenze/OCB"
+    # - ODOO_TNLBOT="1" ODOO_REPO="zeroincombenze/OCB"
+    # either use the two lines above or the two below. Don't change the default if
+    # it's not necessary (it is only necessary if modules in your repository can't
+    # be installed in the same database. And you get a huge speed penalty in your
+    # tests)
+    # - TESTS="1.0" ODOO_REPO="odoo/odoo" UNIT_TEST="1"
+    # - TESTS="1.0" ODOO_REPO="OCA/OCB" UNIT_TEST="1"
+    # - TESTS="1.0" ODOO_REPO="zeroincombenze/OCB" UNIT_TEST="1"
+
+script:
+  - travis_run_tests
+
+after_success:
+  - travis_after_tests_success
+
