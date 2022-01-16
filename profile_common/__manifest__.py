@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright 2018-21 SHS-AV s.r.l. <https://www.zeroincombenze.it>
+# Copyright 2018-22 SHS-AV s.r.l. <https://www.zeroincombenze.it>
 #
 # Contributions to development, thanks to:
 # * Antonio Maria Vigliotti <antoniomaria.vigliotti@gmail.com>
@@ -19,6 +19,7 @@
         'account_cancel',
         'purchase',
         'sale',
+        # 'sale_management',                                      # Only 12.0
         'stock',
     ],
     'data': ['data/initial_conf.xml'],
@@ -26,4 +27,3 @@
     'maintainer': 'Antonio Maria Vigliotti',
     'development_status': 'Beta',
 }
-
