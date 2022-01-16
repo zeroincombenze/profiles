@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #
 # Copyright 2018-22 SHS-AV s.r.l. <https://www.zeroincombenze.it>
 #
@@ -10,7 +9,7 @@
 {
     'name': 'profile common',
     'summary': 'Common setup for all profiles',
-    'version': '10.0.0.1.1',
+    'version': '12.0.0.1.1',
     'category': 'Technical Settings',
     'author': 'SHS-AV s.r.l.',
     'website': 'https://www.zeroincombenze.it/servizi-le-imprese/',
@@ -19,7 +18,7 @@
         'account_cancel',
         'purchase',
         'sale',
-        # 'sale_management',                                      # Only 12.0
+        'sale_management',                                      # Only 12.0
         'stock',
     ],
     'data': ['data/initial_conf.xml'],
