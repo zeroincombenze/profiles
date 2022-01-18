@@ -1,7 +1,4 @@
 
-==============================
-|Zeroincombenze| profiles 10.0
-==============================
 |Build Status| |Codecov Status| |license gpl| |Try Me|
 
 
@@ -26,11 +23,11 @@ Avaiable Addons / Moduli disponibili
 +-------------------+------------+----------------------------------------------------------------------------------+
 | Name / Nome       | Version    | Description / Descrizione                                                        |
 +-------------------+------------+----------------------------------------------------------------------------------+
-| profile_common    | 10.0.0.1.1 | Common setup for all profiles                                                    |
+| profile_common    | 12.0.0.1.1 | Common setup for all profiles                                                    |
 +-------------------+------------+----------------------------------------------------------------------------------+
-| profile_pentagraf | 10.0.1.0   | Pentagraf customization                                                          |
+| profile_pentagraf | 12.0.10.0. | Pentagraf customization                                                          |
 +-------------------+------------+----------------------------------------------------------------------------------+
-| profile_zero      | 10.0.0.1.1 | Zeroincombenze                                                                   |
+| profile_zero      | 12.0.10.0. | Zeroincombenze                                                                   |
 +-------------------+------------+----------------------------------------------------------------------------------+
 
 
@@ -46,8 +43,8 @@ Prerequisites / Prerequisiti
 ----------------------------
 
 
-* python 2.7+ (best 2.7.5+)
-* postgresql 9.2+ (best 9.5)
+* python 3.7+
+* postgresql 9.6+ (experimental 10.0+)
 
 
 Installation / Installazione
@@ -67,7 +64,7 @@ Installation / Installazione
 +---------------------------------+------------------------------------------+
 | Suggested deployment is:        | Posizione suggerita per l'installazione: |
 +---------------------------------+------------------------------------------+
-| $HOME/10.0                                                                 |
+| $HOME/12.0                                                                 |
 +----------------------------------------------------------------------------+
 
 ::
@@ -85,8 +82,8 @@ Installation / Installazione
     source $HOME/devel/activate_tools
     # *** End of tools installation or upgrade ***
     # Odoo repository installation; OCB repository must be installed
-    odoo_install_repository profiles -b 10.0 -O zero -o $HOME/10.0
-    vem create $HOME/10.0/venv_odoo -O 10.0 -a "*" -DI -o $HOME/10.0
+    odoo_install_repository profiles -b 12.0 -O oca -o $HOME/12.0
+    vem create $HOME/12.0/venv_odoo -O 12.0 -a "*" -DI -o $HOME/12.0
 
 
 
@@ -109,8 +106,8 @@ Upgrade / Aggiornamento
     source $HOME/devel/activate_tools
     # *** End of tools installation or upgrade ***
     # Odoo repository upgrade
-    odoo_install_repository profiles -b 10.0 -o $HOME/10.0 -U
-    vem amend $HOME/10.0/venv_odoo -o $HOME/10.0
+    odoo_install_repository profiles -b 12.0 -o $HOME/12.0 -U
+    vem amend $HOME/12.0/venv_odoo -o $HOME/12.0
     # Adjust following statements as per your system
     sudo systemctl restart odoo
 
@@ -118,8 +115,6 @@ Upgrade / Aggiornamento
 Support / Supporto
 ------------------
 
-
-|Zeroincombenze| This project is mainly maintained by the `SHS-AV s.r.l. <https://www.zeroincombenze.it/>`__
 
 
 
@@ -129,7 +124,7 @@ Get involved / Ci mettiamo in gioco
 
 Bug reports are welcome! You can use the issue tracker to report bugs,
 and/or submit pull requests on `GitHub Issues
-<https://github.com/zeroincombenze/profiles/issues>`_.
+<https://github.com/OCA/profiles/issues>`_.
 
 In case of trouble, please check there if your issue has already been reported.
 
@@ -137,10 +132,6 @@ Proposals for enhancement
 -------------------------
 
 
-|en| If you have a proposal to change on oh these modules, you may want to send an email to <cc@shs-av.com> for initial feedback.
-An Enhancement Proposal may be submitted if your idea gains ground.
-
-|it| Se hai proposte per migliorare uno dei moduli, puoi inviare una mail a <cc@shs-av.com> per un iniziale contatto.
 
 
 History / Cronologia
@@ -179,13 +170,13 @@ La distribuzione `Zeroincombenze® <https://wiki.zeroincombenze.org/en/Odoo>`__ 
 |
 
 
-Last Update / Ultimo aggiornamento: 2021-07-21
+Last Update / Ultimo aggiornamento: 2022-01-16
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-red.png
     :target: https://odoo-community.org/page/development-status
     :alt: 
-.. |Build Status| image:: https://travis-ci.org/zeroincombenze/profiles.svg?branch=10.0
-    :target: https://travis-ci.com/zeroincombenze/profiles
+.. |Build Status| image:: https://travis-ci.org/OCA/profiles.svg?branch=12.0
+    :target: https://travis-ci.com/OCA/profiles
     :alt: github.com
 .. |license gpl| image:: https://img.shields.io/badge/licence-LGPL--3-7379c3.svg
     :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
@@ -193,23 +184,23 @@ Last Update / Ultimo aggiornamento: 2021-07-21
 .. |license opl| image:: https://img.shields.io/badge/licence-OPL-7379c3.svg
     :target: https://www.odoo.com/documentation/user/14.0/legal/licenses/licenses.html
     :alt: License: OPL
-.. |Coverage Status| image:: https://coveralls.io/repos/github/zeroincombenze/profiles/badge.svg?branch=10.0
-    :target: https://coveralls.io/github/zeroincombenze/profiles?branch=10.0
+.. |Coverage Status| image:: https://coveralls.io/repos/github/OCA/profiles/badge.svg?branch=12.0
+    :target: https://coveralls.io/github/OCA/profiles?branch=12.0
     :alt: Coverage
-.. |Codecov Status| image:: https://codecov.io/gh/zeroincombenze/profiles/branch/10.0/graph/badge.svg
-    :target: https://codecov.io/gh/zeroincombenze/profiles/branch/10.0
+.. |Codecov Status| image:: https://codecov.io/gh/OCA/profiles/branch/12.0/graph/badge.svg
+    :target: https://codecov.io/gh/OCA/profiles/branch/12.0
     :alt: Codecov
-.. |Tech Doc| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-10.svg
-    :target: https://wiki.zeroincombenze.org/en/Odoo/10.0/dev
+.. |Tech Doc| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-12.svg
+    :target: https://wiki.zeroincombenze.org/en/Odoo/12.0/dev
     :alt: Technical Documentation
-.. |Help| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-10.svg
-    :target: https://wiki.zeroincombenze.org/it/Odoo/10.0/man
+.. |Help| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-12.svg
+    :target: https://wiki.zeroincombenze.org/it/Odoo/12.0/man
     :alt: Technical Documentation
-.. |Try Me| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg
-    :target: https://erp10.zeroincombenze.it
+.. |Try Me| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-12.svg
+    :target: http://runbot.odoo.com/runbot
     :alt: Try Me
-.. |OCA Codecov| image:: https://codecov.io/gh/OCA/profiles/branch/10.0/graph/badge.svg
-    :target: https://codecov.io/gh/OCA/profiles/branch/10.0
+.. |OCA Codecov| image:: https://codecov.io/gh/OCA/profiles/branch/12.0/graph/badge.svg
+    :target: https://codecov.io/gh/OCA/profiles/branch/12.0
     :alt: Codecov
 .. |Odoo Italia Associazione| image:: https://www.odoo-italia.org/images/Immagini/Odoo%20Italia%20-%20126x56.png
    :target: https://odoo-italia.org
@@ -238,6 +229,6 @@ Last Update / Ultimo aggiornamento: 2021-07-21
 .. |FatturaPA| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/ade/icons/fatturapa.png
    :target: https://github.com/zeroincombenze/grymb/blob/master/certificates/ade/scope/fatturapa.md
 .. |chat_with_us| image:: https://www.shs-av.com/wp-content/chat_with_us.gif
-   :target: https://t.me/axitec_helpdesk
+   :target: https://t.me/Assitenza_clienti_powERP
 
 
