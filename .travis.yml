@@ -35,6 +35,7 @@ addons:
       # - lessc                           # Pre-installed
       - libevent-dev
       - libffi-dev
+      - libpq-dev
       - libssl-dev
       # - nodejs                          # Pre-installed
       # - npm                             # Pre-installed
@@ -45,7 +46,8 @@ addons:
 
 before_install:
   # Use Zeroincombenze(R) tools
-  - git clone https://github.com/zeroincombenze/tools.git ${HOME}/tools --single-branch --depth=1
+  - git clone https://github.com/zeroincombenze/tools.git ${HOME}/tools --single-branch
+    --depth=1
   - ${HOME}/tools/install_tools.sh -qpt
   - source ${HOME}/devel/activate_tools
   # - "export DISPLAY=:99.0"
@@ -60,9 +62,9 @@ install:
 
 env:
   global:
-  - TRAVIS_DEBUG_MODE="2"
-  - WKHTMLTOPDF_VERSION="0.12.4"
-  - VERSION="10.0" TESTS="0" LINT_CHECK="0" ODOO_TNLBOT="0" WEBSITE_REPO="1"
+    - TRAVIS_DEBUG_MODE="2"
+    - WKHTMLTOPDF_VERSION="0.12.4"
+    - VERSION="10.0" TESTS="0" LINT_CHECK="0" ODOO_TNLBOT="0" WEBSITE_REPO="1"
 
   matrix:
     - LINT_CHECK="1" LINT_CHECK_LEVEL="MINIMAL"
@@ -81,4 +83,3 @@ script:
 
 after_success:
   - travis_after_tests_success
-
