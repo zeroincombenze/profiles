@@ -13,7 +13,9 @@
     "category": "Technical Settings",
     "summary": "Zeroincombenze",
     "author": "SHS-AV s.r.l.",
-    "website": "https://github.com/OCA/l10n-italy",
+    "website": "https://www.zeroincombenze.it",
+    "development_status": "Beta",
+    "license": "LGPL-3",
     "depends": [
         "profile_common",
         "account_invoice_check_total",
@@ -27,8 +29,7 @@
         "purchase_discount",
         "remove_odoo_enterprise",
     ],
-    "data": ["data/initial_conf.xml"],
+    "data": ['data/initial_conf.xml'],
+    "maintainer": "Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>",
     "installable": True,
-    "maintainer": "Antonio Maria Vigliotti",
-    "development_status": "Beta",
 }
