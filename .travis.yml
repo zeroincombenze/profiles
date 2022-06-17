@@ -9,7 +9,8 @@ cache:
     - $HOME/.cache/pip
 
 python:
-  - "2.7"
+  - "3.6"
+  - "3.7"
 
 virtualenv:
   system_site_packages: false
@@ -35,10 +36,11 @@ addons:
       # - lessc                           # Pre-installed
       - libevent-dev
       - libffi-dev
+      - libpq-dev
       - libssl-dev
       # - nodejs                          # Pre-installed
       # - npm                             # Pre-installed
-      - python-dev
+      - python3-dev
       # - python-setuptools               # Pre-installed
       # - wkhtmltopdf                     # Pre-installed
       - zlib1g
@@ -61,7 +63,7 @@ install:
 env:
   global:
   - TRAVIS_DEBUG_MODE="2"
-  - WKHTMLTOPDF_VERSION="0.12.4"
+  - WKHTMLTOPDF_VERSION="0.12.6"
   - VERSION="10.0" TESTS="0" LINT_CHECK="0" ODOO_TNLBOT="0" WEBSITE_REPO="1"
 
   matrix:
