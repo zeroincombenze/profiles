@@ -1,12 +1,12 @@
 
-================================
-|icon| profile common 10.0.0.1.2
-================================
+=================================
+|icon| Profilo di base 10.0.1.0.2
+=================================
 
 
-**Common setup for all profiles**
+**Profilo di base per tutte le installazioni**
 
-.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_common/static/description/icon.png
+.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_base/static/description/icon.png
 
 |Maturity| |Build Status| |Codecov Status| |license gpl| |Try Me|
 
@@ -21,25 +21,28 @@ Overview / Panoramica
 |en| Module with common setup to customize an Odoo instance.
 
 It installs:
+Personalizzazione
 
-* account
-* account_cancel
-* purchase
-* sale
+Modulo con impostazioni base per installazione Odoo.
+
+Sono installati i seguenti moduli:
+
+* base
+* l10n_it_fiscalcode
+* report_xlsx
 
 
 |
 
 |it| Personalizzazione
 
-Modulo con impostazioni comuni per installazione Odoo.
+Modulo con impostazioni base per installazione Odoo.
 
 Sono installati i seguenti moduli:
 
-* account (fatturazione/contabilità)
-* account_cancel (cancellazione movimenti contabili)
-* purchase (acquisti)
-* sale (vendite)
+* base
+* l10n_it_fiscalcode
+* report_xlsx (esportazione file Excel)
 
 
 |
@@ -95,7 +98,7 @@ From UI: go to:
 
 * |menu| Setting > Activate Developer mode 
 * |menu| Apps > Update Apps List
-* |menu| Setting > Apps |right_do| Select **profile_common** > Install
+* |menu| Setting > Apps |right_do| Select **profile_base** > Install
 
 
 |
@@ -128,7 +131,7 @@ From UI: go to:
 
 * |menu| Setting > Activate Developer mode
 * |menu| Apps > Update Apps List
-* |menu| Setting > Apps |right_do| Select **profile_common** > Update
+* |menu| Setting > Apps |right_do| Select **profile_base** > Update
 
 |
 
@@ -219,7 +222,7 @@ This module is part of profiles project.
 
 Last Update / Ultimo aggiornamento: 2022-06-17
 
-.. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
+.. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-black.png
     :target: https://odoo-community.org/page/development-status
     :alt: 
 .. |Build Status| image:: https://travis-ci.org/zeroincombenze/profiles.svg?branch=10.0
