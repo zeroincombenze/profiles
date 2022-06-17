@@ -18,6 +18,7 @@
         "sale",
         'sale_management',                    # Only 12.0
         "stock",
+        "web_decimal_numpad_dot",
     ],
     "data": ["data/initial_conf.xml"],
     "maintainer": "Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>",

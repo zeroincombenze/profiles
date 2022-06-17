@@ -1,12 +1,12 @@
 
-================================
-|icon| profile common 12.0.0.1.2
-================================
+=================================
+|icon| Profilo di base 12.0.1.0.1
+=================================
 
 
-**Common setup for all profiles**
+**Profilo di base per tutte le installazioni**
 
-.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_common/static/description/icon.png
+.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_base/static/description/icon.png
 
 |Maturity| |Build Status| |Codecov Status| |license gpl| |Try Me|
 
@@ -21,25 +21,36 @@ Overview / Panoramica
 |en| Module with common setup to customize an Odoo instance.
 
 It installs:
+Personalizzazione
 
-* account
-* account_cancel
-* purchase
-* sale
+Modulo con impostazioni base per installazione Odoo.
+
+Sono installati i seguenti moduli:
+
+* base
+* remove_odoo_enterprise
+* disable_odoo_online
+* portal_odoo_debranding
+* l10n_it_fiscalcode
+* report_xlsx
+* repository_check
 
 
 |
 
 |it| Personalizzazione
 
-Modulo con impostazioni comuni per installazione Odoo.
+Modulo con impostazioni base per installazione Odoo.
 
 Sono installati i seguenti moduli:
 
-* account (fatturazione/contabilità)
-* account_cancel (cancellazione movimenti contabili)
-* purchase (acquisti)
-* sale (vendite)
+* base
+* remove_odoo_enterprise (rimozione link per Odoo Enterprise)
+* disable_odoo_online (riferimenti odoo.com)
+* portal_odoo_debranding (debranding Odoo su portale)
+* l10n_it_fiscalcode
+* report_xlsx (esportazione file Excel)
+* repository_check (aggiornamenti repository)
 
 
 |
@@ -95,7 +106,7 @@ From UI: go to:
 
 * |menu| Setting > Activate Developer mode 
 * |menu| Apps > Update Apps List
-* |menu| Setting > Apps |right_do| Select **profile_common** > Install
+* |menu| Setting > Apps |right_do| Select **profile_base** > Install
 
 
 |
