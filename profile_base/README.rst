@@ -1,10 +1,10 @@
 
-=================================
-|icon| Profilo di base 10.0.1.0.2
-=================================
+==============================
+|icon| profile_base 10.0.1.0.2
+==============================
 
 
-**Profilo di base per tutte le installazioni**
+**Base profile**
 
 .. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_base/static/description/icon.png
 
@@ -220,9 +220,9 @@ La distribuzione `Zeroincombenze® <https://wiki.zeroincombenze.org/en/Odoo>`__ 
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2022-06-17
+Last Update / Ultimo aggiornamento: 2022-06-18
 
-.. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-black.png
+.. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
     :alt: 
 .. |Build Status| image:: https://travis-ci.org/zeroincombenze/profiles.svg?branch=10.0

@@ -1,12 +1,12 @@
 
-================================
-|icon| profile_common 10.0.1.0.2
-================================
+=================================
+|icon| profile_payment 10.0.1.0.2
+=================================
 
 
-**Common setup for all profiles**
+**Payment and financial installation profile**
 
-.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_common/static/description/icon.png
+.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_payment/static/description/icon.png
 
 |Maturity| |Build Status| |Codecov Status| |license gpl| |Try Me|
 
@@ -18,32 +18,24 @@
 Overview / Panoramica
 =====================
 
-|en| Module with common setup to customize an Odoo instance.
+|en| Module to install payment modules
 
 It installs:
 
-* calendar
-* contacts
-* mail
-* product
-* stock
-* web_decimal_numpad_dot
+* Ricevute bancarie
+* Sepa Credit Transfer (IT)
+* Sepa Direct Debit (IT)
 
 
 |
 
-|it| Personalizzazione
+|it| Modulo per installare moduli pagamenti
 
-Modulo con impostazioni comuni per installazione Odoo.
+Installa:
 
-Sono installati i seguenti moduli:
-
-* calendar
-* contacts
-* mail
-* product
-* stock
-* web_decimal_numpad_dot
+* Ricevute bancarie
+* Bonifici Sepa (IT)
+* Addebito diretto su conto Sepa (IT)
 
 
 |
@@ -99,7 +91,7 @@ From UI: go to:
 
 * |menu| Setting > Activate Developer mode 
 * |menu| Apps > Update Apps List
-* |menu| Setting > Apps |right_do| Select **profile_common** > Install
+* |menu| Setting > Apps |right_do| Select **profile_payment** > Install
 
 
 |
@@ -132,7 +124,7 @@ From UI: go to:
 
 * |menu| Setting > Activate Developer mode
 * |menu| Apps > Update Apps List
-* |menu| Setting > Apps |right_do| Select **profile_common** > Update
+* |menu| Setting > Apps |right_do| Select **profile_payment** > Update
 
 |
 

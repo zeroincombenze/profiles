@@ -1,8 +1,8 @@
-Module with common setup to customize an Odoo instance.
+Module to install accounting modules.
 
 It installs:
 
-* account
-* account_cancel
-* purchase
-* sale
+* account (many modules)
+* account report modules
+* e-invoice modules
+* vat modules

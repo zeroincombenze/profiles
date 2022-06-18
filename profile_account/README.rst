@@ -1,12 +1,12 @@
 
-================================
-|icon| profile common 10.0.0.1.2
-================================
+=================================
+|icon| profile account 10.0.0.1.2
+=================================
 
 
-**Common setup for all profiles**
+**Accounting installation profile**
 
-.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_common/static/description/icon.png
+.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_account/static/description/icon.png
 
 |Maturity| |Build Status| |Codecov Status| |license gpl| |Try Me|
 
@@ -18,28 +18,26 @@
 Overview / Panoramica
 =====================
 
-|en| Module with common setup to customize an Odoo instance.
+|en| Module to install accounting modules.
 
 It installs:
 
-* account
-* account_cancel
-* purchase
-* sale
+* account (many modules)
+* account report modules
+* e-invoice modules
+* vat modules
 
 
 |
 
-|it| Personalizzazione
+|it| Modulo per l'installazione dei moduli contabili
 
-Modulo con impostazioni comuni per installazione Odoo.
+Installa:
 
-Sono installati i seguenti moduli:
-
-* account (fatturazione/contabilità)
-* account_cancel (cancellazione movimenti contabili)
-* purchase (acquisti)
-* sale (vendite)
+* contabilità (diversi moduli)
+* moduli di stampa contabile
+* fatturazione elettronica
+* moduli IVA
 
 
 |
@@ -95,7 +93,7 @@ From UI: go to:
 
 * |menu| Setting > Activate Developer mode 
 * |menu| Apps > Update Apps List
-* |menu| Setting > Apps |right_do| Select **profile_common** > Install
+* |menu| Setting > Apps |right_do| Select **profile_account** > Install
 
 
 |
@@ -128,7 +126,7 @@ From UI: go to:
 
 * |menu| Setting > Activate Developer mode
 * |menu| Apps > Update Apps List
-* |menu| Setting > Apps |right_do| Select **profile_common** > Update
+* |menu| Setting > Apps |right_do| Select **profile_account** > Update
 
 |
 
@@ -217,7 +215,7 @@ La distribuzione `Zeroincombenze® <https://wiki.zeroincombenze.org/en/Odoo>`__ 
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2022-06-17
+Last Update / Ultimo aggiornamento: 2022-06-18
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
