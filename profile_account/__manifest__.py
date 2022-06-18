@@ -31,7 +31,7 @@
         "account_move_line_type",                           # Only 12.0,
         "account_move_template",
         "account_payment_term_plus",                        # Only 12.0
-        "accounting_pdf_reports",                           # Only 12.0
+        # "accounting_pdf_reports",                           # Only 12.0
         "account_tax_unique",                               # Only 12.0
         "date_range_plus",                                  # Only 12.0
         "l10n_eu_account",
