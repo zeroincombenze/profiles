@@ -4,24 +4,22 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
 {
-    "name": "profile_common",
+    "name": "profile_payment",
     "version": "12.0.1.0.2",
     "category": "Technical Settings",
-    "summary": "Common setup for all profiles",
+    "summary": "Payment and financial installation profile",
     "author": "SHS-AV s.r.l.",
     "website": "https://www.zeroincombenze.it",
     "development_status": "Beta",
     "license": "AGPL-3",
     "depends": [
-        "calendar",
-        "contacts",
-        "mail",
-        "product",
-        "stock",
-        "web_decimal_numpad_dot",
+        "profile_common",
+        "assigned_bank",
+        "account_banking_invoice_financing",
+        "account_banking_riba",
+        "account_banking_sepa_credit_trasfer_ita",
+        "account_banking_sepa_direct_debit_ita",
     ],
-    "data": ["data/initial_conf.xml"],
     "maintainer": "Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>",
     "installable": True,
-    'post_init_hook': 'set_default_values',
 }

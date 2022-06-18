@@ -1,12 +1,13 @@
-# Copyright 2022 LibrERP enterprise network <https://www.librerp.it>
 #
-# License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl).
+# Copyright 2018-22 SHS-AV s.r.l. <https://www.zeroincombenze.it>
+#
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
 {
     "name": "Profilo di base",
-    "version": "12.0.1.0.1",
-    "category": "Localization/Account Charts",
-    "summary": "Profilo di base per tutte le installazioni",
+    "version": "12.0.1.0.2",
+    "category": "Technical Settings",
+    "summary": "Base profile",
     "author": "SHS-AV s.r.l.",
     "website": "https://www.zeroincombenze.it",
     "development_status": "Beta",
@@ -15,13 +16,17 @@
         "base",
         "remove_odoo_enterprise",           # OCA server-brand - Only 12.0
         "disable_odoo_online",              # OCA server-brand - Only 12.0
+        "l10n_it_coa",
         "portal_odoo_debranding",           # OCA server-brand - Only 12.0
         # "partner_data_from_vies",
-        "l10n_it_fiscalcode",
+        "purchase",
+        "purchase_discount",
         "report_xlsx",
         "repository_check",                  # custom-addons - Only 12.0
+        "sale",
+        'sale_management',  # Only 12.0
+        "stock",
     ],
+    "maintainer": "Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>",
     "installable": True,
-    "application": False,
-    "auto_install": False,
 }

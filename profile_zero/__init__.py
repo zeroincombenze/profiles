@@ -3,7 +3,6 @@
 # Contributions to development, thanks to:
 # * Antonio Maria Vigliotti <antoniomaria.vigliotti@gmail.com>
 #
-# Copyright 2022 LibrERP enterprise network <https://www.librerp.it>
-#
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl).
 #
+from .post_install import set_default_values

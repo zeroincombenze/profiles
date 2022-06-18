@@ -2,7 +2,9 @@ Module with common setup to customize an Odoo instance.
 
 It installs:
 
-* account
-* account_cancel
-* purchase
-* sale
+* calendar
+* contacts
+* mail
+* product
+* stock
+* web_decimal_numpad_dot

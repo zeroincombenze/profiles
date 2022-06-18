@@ -1,10 +1,8 @@
-Personalizzazione
+Modulo per l'installazione dei moduli contabili
 
-Modulo con impostazioni comuni per installazione Odoo.
+Installa:
 
-Sono installati i seguenti moduli:
-
-* account (fatturazione/contabilità)
-* account_cancel (cancellazione movimenti contabili)
-* purchase (acquisti)
-* sale (vendite)
+* contabilità (diversi moduli)
+* moduli di stampa contabile
+* fatturazione elettronica
+* moduli IVA
