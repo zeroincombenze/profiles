@@ -5,7 +5,7 @@
 #
 {
     "name": "profile zeroincombenze(R)",
-    "version": "12.0.1.0.2",
+    "version": "12.0.1.0.3",
     "category": "Technical Settings",
     "summary": "Zeroincombenze Setup",
     "author": "SHS-AV s.r.l.",
@@ -17,6 +17,7 @@
         "profile_base",
         "profile_account",
         "profile_payment",
+        "profile_sale",
     ],
     "maintainer": "Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>",
     "installable": True,
