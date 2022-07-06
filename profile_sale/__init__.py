@@ -5,4 +5,3 @@
 #
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl).
 #
-from .post_install import set_default_values
