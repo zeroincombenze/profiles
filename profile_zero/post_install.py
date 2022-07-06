@@ -15,8 +15,10 @@ def set_company_default(cr):
 def set_user_zeroadm(cr):
     with api.Environment.manage():
         env = api.Environment(cr, SUPERUSER_ID, {})
-        user = env.ref("base.user_root")
-        cr.execute("UPDATE res_users set login='%s' where id=%d" % ("zeroadm", user.id))
+        if not env["res.users"].search([("login", "=", "zeroadm")]):
+            user = env.ref("base.user_root")
+            cr.execute(
+                "UPDATE res_users set login='%s' where id=%d" % ("zeroadm", user.id))
 
 
 def set_default_values(cr, registry):
