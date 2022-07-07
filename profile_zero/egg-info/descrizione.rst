@@ -1,3 +1,1 @@
-Profile Zeroincombenze(R)
-
-Imposta il login dell'utente principale a zeroadm
+Questo modulo installa una configurazione completa di Odoo ed imposta il login dell'utente principale come zeroadm.

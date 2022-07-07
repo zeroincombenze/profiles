@@ -18,16 +18,12 @@
 Overview / Panoramica
 =====================
 
-|en| Zeroincombenze(R) profile.
-
-This module set main user login to zeroadm
+|en| This module installs a complete Odoo instance and set main user login to zeroadm.
 
 
 |
 
-|it| Profile Zeroincombenze(R)
-
-Imposta il login dell'utente principale a zeroadm
+|it| Questo modulo installa una configurazione completa di Odoo ed imposta il login dell'utente principale come zeroadm.
 
 
 |
@@ -201,7 +197,7 @@ La distribuzione `Zeroincombenze® <https://wiki.zeroincombenze.org/en/Odoo>`__ 
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2022-07-06
+Last Update / Ultimo aggiornamento: 2022-07-07
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status

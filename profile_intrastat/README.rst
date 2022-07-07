@@ -6,7 +6,7 @@
 
 **Zeroincombenze Setup**
 
-.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_sale/static/description/icon.png
+.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_intrastat/static/description/icon.png
 
 |Maturity| |Build Status| |Codecov Status| |license gpl| |Try Me|
 
@@ -18,12 +18,12 @@
 Overview / Panoramica
 =====================
 
-|en| This module add sale management plug-in.
+|en| This module install intrasta plug-in.
 
 
 |
 
-|it| Questo modulo installa i moduli di gestione ordini di vendita.
+|it| Questo modulo installa i moduli di gestione intrastat.
 
 
 |
@@ -79,7 +79,7 @@ From UI: go to:
 
 * |menu| Setting > Activate Developer mode 
 * |menu| Apps > Update Apps List
-* |menu| Setting > Apps |right_do| Select **profile_sale** > Install
+* |menu| Setting > Apps |right_do| Select **profile_intrastat** > Install
 
 
 |

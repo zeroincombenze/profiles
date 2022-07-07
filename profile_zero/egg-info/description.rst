@@ -1,3 +1,1 @@
-Zeroincombenze(R) profile.
-
-This module set main user login to zeroadm
+This module installs a complete Odoo instance and set main user login to zeroadm.

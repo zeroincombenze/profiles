@@ -5,7 +5,7 @@
 #
 {
     "name": "profile zeroincombenze(R)",
-    "version": "12.0.1.0.3",
+    "version": "12.0.1.0.0",
     "category": "Technical Settings",
     "summary": "Zeroincombenze Setup",
     "author": "SHS-AV s.r.l.",
@@ -13,15 +13,12 @@
     "development_status": "Beta",
     "license": "AGPL-3",
     "depends": [
-        "profile_common",
-        "profile_base",
-        "profile_account",
-        "profile_payment",
-        "profile_sale",
-        "profile_intrastat",
-        "profile_assets",
+        'base',
+        'account',
+        'l10n_it_account_stamp',
+        'l10n_it_account_stamp_sale',
+        'l10n_it_fatturapa_out_stamp',
     ],
     "maintainer": "Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>",
     "installable": True,
-    'post_init_hook': 'set_default_values',
 }

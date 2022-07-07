@@ -1,3 +1,1 @@
-Zeroincombenze(R) profile.
-
-This module set main user login to zeroadm
+This module add sale management plug-in.

@@ -28,8 +28,10 @@
         "account_invoice_constraint_chronology_nodraft",    # Only 12.0
         "account_invoice_force_number",
         "account_invoice_zero_amount",                      # Only 12.0
+        "account_invoice_line_report",                      # Only 12.0
         "account_move_line_type",                           # Only 12.0,
         "account_move_template",
+        "account_move_chatter",                             # Only 12.0
         "account_payment_term_plus",                        # Only 12.0
         # "accounting_pdf_reports",                           # Only 12.0
         "account_tax_unique",                               # Only 12.0
