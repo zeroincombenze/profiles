@@ -1,0 +1,12 @@
+# use glob syntax.
+syntax: glob
+
+*.pyc
+*~
+*.komodoproject
+*.orig
+*.csync_journal.db
+*owncloudsync*
+*hgignore*
+.idea
+.komodotools

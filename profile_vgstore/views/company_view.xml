@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_res_company_form_django_inherit" model="ir.ui.view">
+            <field name="name">res.company.form.django.inherit</field>
+            <field name="model">res.company</field>
+            <field name="type">form</field>
+            <field name="inherit_id" ref="base.view_company_form"/>
+            <field name="arch" type="xml">
+                <page string="Configuration" position="inside">
+                    <separator string="Django" colspan="4"/>
+                    <group>
+                        <field name="django_host" placeholder="Ex: localhost:8000"/>
+                        <field name="rest_user" placeholder="admin" />
+                        <field name="rest_pass" placeholder="admin" />
+                    </group>
+                </page>
+            </field>
+        </record>
+    </data>
+</openerp>

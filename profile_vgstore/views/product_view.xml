@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!--<menuitem sequence="0" id="menu_products" name="Sync products"/>-->
+        <record id="template_vg_product_form" model="ir.ui.view">
+            <field name="name">product.template.vg.form</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="website_sale.product_template_form_view"/>
+            <field name="arch" type="xml">
+                <group name="website" position="inside">
+                    <field name="vg_product_id" readonly="True" />
+                </group>
+            </field>
+        </record>
+
+        <record id="product_product_public_category_vg_form" model="ir.ui.view">
+            <field name="name">product.product.vg.form</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_normal_form_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//notebook" position="inside">
+                    <page string="Survey">
+                        <field name="survey" context="{'default_product_id': active_id}">
+                            <tree string="Input fields">
+                                <field name="name" />
+                                <field name="input_type" />
+                            </tree>
+                        </field>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="product_public_category_vg_form" model="ir.ui.view">
+            <field name="name">product.public.category.vg.form</field>
+            <field name="model">product.public.category</field>
+            <field name="inherit_id" ref="website_sale.product_public_category_form_view"/>
+            <field name="arch" type="xml">
+                <field name="sequence" position="after">
+                    <field name="vg_category_id" readonly="False" group="group_vg7"/>
+                </field>
+                <xpath expr="//sheet" position="inside">
+                    <group>
+                        <field name="child_id">
+                            <tree>
+                                <field name="sequence" widget="handle" />
+                                <field name="name" />
+                            </tree>
+                        </field>
+                        <field name="product_ids">
+                            <tree>
+                                <field name="sequence" widget="handle" />
+                                <field name="id" />
+                                <field name="default_code" />
+                                <field name="name" />
+                            </tree>
+                        </field>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="action_category_sync" model="ir.actions.server">
+            <field name="name">Sync Categories</field>
+            <field name="model_id" ref="model_product_public_category"/>
+            <field name="state">code</field>
+            <field name="code">
+                if context.get('active_model') == 'product.public.category':
+                    self.sync_all(cr, uid, [], context=context)
+            </field>
+        </record>
+
+        <record id="category_sync" model="ir.values">
+            <field name="key2" eval="'client_action_multi'"/>
+            <field name="model" eval="'product.public.category'"/>
+            <field name="name">Sync Categories</field>
+            <field name="value" eval="'ir.actions.server,{}'.format(action_category_sync)"/>
+        </record>
+
+        <record id="action_all_category_sync" model="ir.actions.server">
+            <field name="name">Sync All Categories</field>
+            <field name="model_id" ref="model_product_public_category"/>
+            <field name="state">code</field>
+            <field name="code">
+                if context.get('active_model') == 'product.public.category':
+                    context['active_ids'] = []
+                    self.sync_all(cr, uid, [], context=context)
+            </field>
+        </record>
+
+        <record id="all_category_sync" model="ir.values">
+            <field name="key2" eval="'client_action_multi'"/>
+            <field name="model" eval="'product.public.category'"/>
+            <field name="name">Sync A Categories</field>
+            <field name="value" eval="'ir.actions.server,{}'.format(action_all_category_sync)"/>
+        </record>
+
+        <record id="action_sync" model="ir.actions.server">
+            <field name="name">Sync Products</field>
+            <field name="model_id" ref="model_product_template"/>
+            <field name="state">code</field>
+            <field name="code">
+                if context.get('active_model') == 'product.template':
+                    self.sync_all(cr, uid, [], context=context)
+            </field>
+        </record>
+
+        <record id="ir_sync" model="ir.values">
+            <field name="key2" eval="'client_action_multi'"/>
+            <field name="model" eval="'product.template'"/>
+            <field name="name">Sync Products</field>
+            <field name="value" eval="'ir.actions.server,%d' % action_sync"/>
+        </record>
+
+        <record id="action_sync_all" model="ir.actions.server">
+            <field name="name">Sync All Products</field>
+            <field name="model_id" ref="model_product_template"/>
+            <field name="state">code</field>
+            <field name="code">
+                if context.get('active_model') == 'product.template':
+                    context['active_ids'] = []
+                    self.sync_all(cr, uid, [], context=context)
+            </field>
+        </record>
+
+        <record id="ir_a_sync" model="ir.values">
+            <field name="key2" eval="'client_action_multi'"/>
+            <field name="model" eval="'product.template'"/>
+            <field name="name">Sync A Products</field>
+            <field name="value" eval="'ir.actions.server,{}'.format(action_sync_all)"/>
+        </record>
+
+        <record id="action_verify_products" model="ir.actions.server">
+            <field name="name">Verify Products</field>
+            <field name="model_id" ref="model_product_template"/>
+            <field name="state">code</field>
+            <field name="code">
+                if context.get('active_model') == 'product.template':
+                    context['active_ids'] = []
+                    action = self.verify_products(cr, uid, [], context=context)
+            </field>
+        </record>
+
+        <record id="verify_products" model="ir.values">
+            <field name="key2" eval="'client_action_multi'"/>
+            <field name="model" eval="'product.template'"/>
+            <field name="name">Verify Products</field>
+            <field name="value" eval="'ir.actions.server,{}'.format(action_verify_products)"/>
+        </record>
+
+        <record id="product_survey_form" model="ir.ui.view">
+            <field name="name">product.survey.form</field>
+            <field name="model">product.survey</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="product_id" readonly="True"/>
+                        <field name="name" />
+                        <field name="input_type" />
+                    </group>
+                    <field name="radio_image" context="{'default_res_model': 'product.survey'}" attrs="{'invisible': [('input_type', '!=', 'radio_with_image')]}">
+                        <tree string="Images" editable="bottom">
+                            <field name="sequence" widget="handle" />
+                            <field name="name" />
+                            <field name="res_model" readonly="False" invisible="True"/>
+                            <field name="datas" />
+                        </tree>
+                    </field>
+                    <field name="text_list" attrs="{'invisible': [('input_type', '!=', 'radio_with_text'), ('input_type', '!=', 'selection')]}">
+                        <tree string="Lines" editable="bottom">
+                            <field name="sequence" widget="handle" />
+                            <field name="name" />
+                        </tree>
+                    </field>
+                </form>
+
+            </field>
+        </record>
+
+    </data>
+</openerp>

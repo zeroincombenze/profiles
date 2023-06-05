@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data noupdate="0">
+
+    <!-- Root user -->
+    <record id="base.partner_root" model="res.partner">
+        <field name="country_id" ref="base.it"/>
+        <field name="tz">Europe/Rome</field>
+    </record>
+
+    <!-- Base company -->
+    <record id="base.main_partner" model="res.partner">
+        <field name="currency_id" ref="base.EUR"/>
+    </record>
+
+    <record id="base.main_company" model="res.company">
+        <field name="country_id" ref="base.it"/>
+        <field name="currency_id" ref="base.EUR"/>
+    </record>
+
+    <!-- 
+    <record model="ir.model.data" id="__lang_it">
+        <field name="model">res.lang</field>
+        <field name="module">base</field>
+        <field name="name">lang_it</field>
+        <field name="res_id">2</field>
+    </record>
+
+    <record model="res.lang" id="base.lang_it">
+        <field name="name">italian / italiano</field>
+        <field name="code" eval="'it_IT'"/>
+        <field name="date_format">%d/%m/%Y</field>
+        <field name="time_format">%H:%M:%S</field>
+        <field name="decimal_point">,</field>
+        <field name="thousands_sep">.</field>
+    </record>
+
+    <record id="base.user_root" model="res.users">
+        <field name="name">VG7 Administrator</field>
+        <field name="login">admin</field>
+        <field name="groups_id" eval="[(4,ref('base.group_no_one'))]"/>
+    </record>
+    -->
+
+</data>
+</openerp>

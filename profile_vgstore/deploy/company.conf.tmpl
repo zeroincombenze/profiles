@@ -1,0 +1,84 @@
+[options]
+## Server startup config - Common options
+# Admin password for creating, restoring and backing up databases
+admin_passwd = v4mp1gr0up
+# specify additional addons paths (separated by commas)
+#addons_path = /opt/openerp/fullodoo/__base__/odoo/addons,/opt/openerp/fullodoo,/opt/openerp/fullodoo/__other__/eficent_original,/opt/openerp/fullodoo/__other__/odoo-eam,/opt/openerp/fullodoo/__oca__/account-invoicing,/opt/openerp/fullodoo/__oca__/knowledge,/opt/openerp/fullodoo/__oca__/odoomrp-wip,/opt/openerp/fullodoo/__oca__/partner-contact,/opt/openerp/fullodoo/__oca__/project-service,/opt/openerp/fullodoo/__oca__/server-tools,/opt/openerp/fullodoo/__oca__/web,/opt/openerp/fullodoo/__oca__/website,/opt/openerp/fullodoo/__other__/clearcorp,/opt/openerp/fullodoo/__mercurial__/didotech_80,/opt/openerp/profiles
+
+addons_path = /opt/openerp/OCB/addons,/opt/openerp/fullodoo,/opt/openerp/fullodoo/__other__/eficent_original,/opt/openerp/fullodoo/__other__/odoo-eam,/opt/openerp/fullodoo/__oca__/account-invoicing,/opt/openerp/fullodoo/__oca__/knowledge,/opt/openerp/fullodoo/__oca__/odoomrp-wip,/opt/openerp/fullodoo/__oca__/partner-contact,/opt/openerp/fullodoo/__oca__/project-service,/opt/openerp/fullodoo/__oca__/server-tools,/opt/openerp/fullodoo/__oca__/web,/opt/openerp/fullodoo/__oca__/website,/opt/openerp/fullodoo/__other__/clearcorp,/opt/openerp/didotech_80,/opt/openerp/profiles,/opt/openerp/addons80/l10n-italy
+
+## XML-RPC / HTTP - XML-RPC Configuration
+# disable the XML-RPC protocol
+xmlrpc = True
+# Specify the TCP IP address for the XML-RPC protocol. The empty string binds to all interfaces.
+xmlrpc_interface = 127.0.0.1
+# specify the TCP port for the XML-RPC protocol
+# xmlrpc_port = 8069
+# specify the TCP port for the NETRPC protocol
+# netrpc_port = 8070
+# specify the TCP port for the XML-RPC Secure protocol
+# xmlrpcs_port = 8071
+
+# specify the TCP port for the XML-RPC protocol
+xmlrpc_port = {xml_port}
+# specify the TCP port for the NETRPC protocol
+netrpc_port = {net_port}
+# specify the TCP port for the XML-RPC Secure protocol
+xmlrpcs_port = {xmls_port}
+
+# Enable correct behavior when behind a reverse proxy
+proxy_mode = True
+## XML-RPC / HTTPS - XML-RPC Secure Configuration
+# disable the XML-RPC Secure protocol
+xmlrpcs = False
+# Specify the TCP IP address for the XML-RPC Secure protocol. The empty string binds to all interfaces.
+xmlrpcs_interface =
+# specify the certificate file for the SSL connection
+secure_cert_file = server.cert
+# specify the private key file for the SSL connection
+secure_pkey_file = server.pkey
+## NET-RPC - NET-RPC Configuration
+# enable the NETRPC protocol
+netrpc = False
+# specify the TCP IP address for the NETRPC protocol
+netrpc_interface = 127.0.0.1
+## WEB - Web interface Configuration
+# Filter listed database REGEXP
+#dbfilter = .*
+#dbfilter = ^%d$
+db_name = {db_name}
+dbfilter = {db_name}
+db_user = openerp
+db_password = 123456
+## Static HTTP - Static HTTP service
+# enable static HTTP service for serving plain HTML files
+static_http_enable = False
+# specify the directory containing your static HTML files (e.g '/var/www/')
+static_http_document_root = None
+# specify the URL root prefix where you want web browsers to access your static HTML files (e.g '/')
+static_http_url_prefix = None
+## Testing Group - Testing Configuration
+# Launch a YML test file.
+test_file = False
+# If set, will save sample of all reports in this directory.
+test_report_directory = False
+# Enable YAML and unit tests.
+test_disable = False
+# Commit database changes performed by YAML or XML tests.
+test_commit = False
+## Logging Group - Logging Configuration
+# file where the server log will be stored (default = None)
+logfile = /opt/openerp/config_odoo/odoo-{company}.log
+# do not rotate the logfile
+logrotate = True
+# Send the log to the syslog server
+syslog = False
+# setup a handler at LEVEL for a given PREFIX. An empty PREFIX indicates the root logger. This option can be repeated. Example: "openerp.orm:DEBUG" or "werkzeug:CRITICAL" (default: ":INFO")
+log_handler = ["[':INFO']"]
+# specify the level of the logging. Accepted values: info, debug_rpc, warn, test, critical, debug_sql, error, debug, debug_rpc_answer, notset
+#log_level = debug
+log_level = info
+# specify a custom database template to create a new database
+db_template = template0
+# filestore
+data_dir = /opt/openerp/filestore
