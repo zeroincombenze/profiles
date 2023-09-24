@@ -1,14 +1,11 @@
 
-==============================
-|icon| profile_base 10.0.1.0.2
-==============================
-
+=================================
+|icon| Profilo di base 10.0.1.0.3
+=================================
 
 **Base profile**
 
 .. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_base/static/description/icon.png
-
-|Maturity| |Build Status| |Codecov Status| |license gpl| |Try Me|
 
 
 .. contents::
@@ -46,10 +43,9 @@ Sono installati i seguenti moduli:
 
 
 |
-|
 
-Getting started / Come iniziare
-===============================
+Getting started / Primi passi
+=============================
 
 |Try Me|
 
@@ -83,20 +79,21 @@ Installation / Installazione
     # Case 1: you have not installed zeroincombenze tools
     git clone https://github.com/zeroincombenze/tools.git
     cd $HOME/tools
-    ./install_tools.sh -p
+    ./install_tools.sh -pT
     source $HOME/devel/activate_tools
     # Case 2: you have already installed zeroincombenze tools
     cd $HOME/tools
-    ./install_tools.sh -U
+    ./install_tools.sh -UT
     source $HOME/devel/activate_tools
     # *** End of tools installation or upgrade ***
     # Odoo repository installation; OCB repository must be installed
-    odoo_install_repository profiles -b 10.0 -O zero -o $HOME/10.0
-    vem create $HOME/10.0/venv_odoo -O 10.0 -a "*" -DI -o $HOME/10.0
+    deploy_odoo clone -r profiles -b 10.0 -G zero -p $HOME/10.0
+    # Upgrade virtual environment
+    vem amend $HOME/10.0/venv_odoo
 
 From UI: go to:
 
-* |menu| Setting > Activate Developer mode 
+* |menu| Setting > Activate Developer mode
 * |menu| Apps > Update Apps List
 * |menu| Setting > Apps |right_do| Select **profile_base** > Install
 
@@ -114,16 +111,16 @@ Upgrade / Aggiornamento
     # Case 1: you have not installed zeroincombenze tools
     git clone https://github.com/zeroincombenze/tools.git
     cd $HOME/tools
-    ./install_tools.sh -p
+    ./install_tools.sh -pT
     source $HOME/devel/activate_tools
     # Case 2: you have already installed zeroincombenze tools
     cd $HOME/tools
-    ./install_tools.sh -U
+    ./install_tools.sh -UT
     source $HOME/devel/activate_tools
     # *** End of tools installation or upgrade ***
     # Odoo repository upgrade
-    odoo_install_repository profiles -b 10.0 -o $HOME/10.0 -U
-    vem amend $HOME/10.0/venv_odoo -o $HOME/10.0
+    deploy_odoo update -r profiles -b 10.0 -G zero -p $HOME/10.0
+    vem amend $HOME/10.0/venv_odoo
     # Adjust following statements as per your system
     sudo systemctl restart odoo
 
@@ -133,13 +130,14 @@ From UI: go to:
 * |menu| Apps > Update Apps List
 * |menu| Setting > Apps |right_do| Select **profile_base** > Update
 
+
 |
 
 Support / Supporto
 ------------------
 
 
-|Zeroincombenze| This module is maintained by the `SHS-AV s.r.l. <https://www.zeroincombenze.it/>`__
+|Zeroincombenze| This module is supported by the `SHS-AV s.r.l. <https://www.zeroincombenze.it/>`__
 
 
 |
@@ -164,6 +162,15 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 |it| Se hai proposte per migliorare questo modulo, puoi inviare una mail a <cc@shs-av.com> per un iniziale contatto.
 
 
+ChangeLog History / Cronologia modifiche
+----------------------------------------
+
+10.0.1.0.3 (2013-09-23)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [FIX] New dependency name l10n_it_coa replaces old l10n_it_fiscal
+
+
 |
 |
 
@@ -176,26 +183,22 @@ Copyright
 Odoo is a trademark of `Odoo S.A. <https://www.odoo.com/>`__ (formerly OpenERP)
 
 
-
 |
 
 Authors / Autori
 ----------------
 
-* `SHS-AV s.r.l. <https://www.zeroincombenze.it/>`__
+* SHS-AV s.r.l. <https://www.zeroincombenze.it>
 
-
-Contributors / Collaboratori
+Contributors / Contributi da
 ----------------------------
 
 * Antonio Maria Vigliotti <antoniomaria.vigliotti@gmail.com>
 
-
 Maintainer / Manutenzione
 -------------------------
 
-
-
+Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>
 
 |
 
@@ -204,23 +207,19 @@ Maintainer / Manutenzione
 
 |en| **zeroincombenze®** is a trademark of `SHS-AV s.r.l. <https://www.shs-av.com/>`__
 which distributes and promotes ready-to-use **Odoo** on own cloud infrastructure.
-`Zeroincombenze® distribution of Odoo <https://wiki.zeroincombenze.org/en/Odoo>`__
+`Zeroincombenze® distribution of Odoo <https://www.zeroincombenze.it/>`__
 is mainly designed to cover Italian law and markeplace.
 
 |it| **zeroincombenze®** è un marchio registrato da `SHS-AV s.r.l. <https://www.shs-av.com/>`__
 che distribuisce e promuove **Odoo** pronto all'uso sulla propria infrastuttura.
-La distribuzione `Zeroincombenze® <https://wiki.zeroincombenze.org/en/Odoo>`__ è progettata per le esigenze del mercato italiano.
-
-
-
-|chat_with_us|
+La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è progettata per le esigenze del mercato italiano.
 
 
 |
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2022-06-18
+Last Update / Ultimo aggiornamento: 2023-09-24
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
@@ -280,4 +279,5 @@ Last Update / Ultimo aggiornamento: 2022-06-18
    :target: https://github.com/zeroincombenze/grymb/blob/master/certificates/ade/scope/fatturapa.md
 .. |chat_with_us| image:: https://www.shs-av.com/wp-content/chat_with_us.gif
    :target: https://t.me/Assitenza_clienti_powERP
+
 

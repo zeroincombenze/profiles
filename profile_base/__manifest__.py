@@ -5,8 +5,8 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
 {
-    "name": "profile_base",
-    "version": "10.0.1.0.2",
+    "name": "Profilo di base",
+    "version": "10.0.1.0.3",
     "category": "Technical Settings",
     "summary": "Base profile",
     "author": "SHS-AV s.r.l.",
@@ -15,7 +15,10 @@
     "license": "AGPL-3",
     "depends": [
         "base",
-        "l10n_it_fiscal",
+        # "remove_odoo_enterprise",           # OCA server-brand - Only 12.0
+        # "disable_odoo_online",              # OCA server-brand - Only 12.0
+        "l10n_it_coa",
+        # "portal_odoo_debranding",           # OCA server-brand - Only 12.0
         "partner_bank",
         # "partner_data_from_vies",
         "purchase",
