@@ -23,5 +23,5 @@
     "data": ["data/initial_conf.xml"],
     "maintainer": "Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>",
     "installable": True,
-    'post_init_hook': 'set_default_values',
+    "post_init_hook": "set_default_values",
 }
