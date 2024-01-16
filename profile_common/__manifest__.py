@@ -4,7 +4,7 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
 {
-    "name": "profile_common",
+    "name": "Common profile",
     "version": "12.0.1.0.2",
     "category": "Technical Settings",
     "summary": "Common setup for all profiles",

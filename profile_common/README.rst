@@ -1,6 +1,6 @@
-================================
-|icon| profile_common 12.0.1.0.2
-================================
+===============================================
+|icon| Common profile/Profilo comune 12.0.1.0.2
+===============================================
 
 **Common setup for all profiles**
 
@@ -25,10 +25,16 @@ It installs:
 * stock
 * web_decimal_numpad_dot
 
+It does:
 
-|it| Personalizzazione
+#. Add Italian language on current database
+#. Assign Italian language to administrator user
+#. Activate EUR currency
+#. Assign EUR currency to current company
+#. Assing Rome TimeZone to current user
 
-Modulo con impostazioni comuni per installazione Odoo.
+
+|it| Modulo con impostazioni comuni per installazione Odoo.
 
 Sono installati i seguenti moduli:
 
@@ -38,6 +44,14 @@ Sono installati i seguenti moduli:
 * product
 * stock
 * web_decimal_numpad_dot
+
+Inoltre:
+
+#. Aggiunge  la lingua italiana al database
+#. Assegna la lingua italiana all'amministratore
+#. Attiva la divisa EUR
+#. Assegna la divisa EUR all'azienda corrente
+#. Assegna la Zona oraria di Roma all'utente
 
 
 |thumbnail|
@@ -194,7 +208,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2024-01-14
+Last Update / Ultimo aggiornamento: 2024-01-16
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
