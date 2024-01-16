@@ -35,11 +35,6 @@ id,code,name,user_type_id:id,group_id:id,reconcile,chart_template_id:id
 023010,023010,iva c/acquisti UE,account.data_account_type_current_assets,023,FALSE,l10n_chart_it_cdo
 024001,024001,partecipazioni,account.data_account_type_current_assets,024,FALSE,l10n_chart_it_cdo
 024002,024002,altri titoli,account.data_account_type_current_assets,024,FALSE,l10n_chart_it_cdo
-025001,025001,banca popolare di Milano,account.data_account_type_liquidity,025,FALSE,l10n_chart_it_cdo
-025002,025002,assegni,account.data_account_type_liquidity,025,FALSE,l10n_chart_it_cdo
-025003,025003,denaro e valori in cassa,account.data_account_type_liquidity,025,FALSE,l10n_chart_it_cdo
-025004,025004,carta jeans,account.data_account_type_liquidity,025,FALSE,l10n_chart_it_cdo
-025005,025005,Carta Impronta Business,account.data_account_type_liquidity,025,FALSE,l10n_chart_it_cdo
 031001,031001,ratei attivi,account.data_account_type_current_assets,031,FALSE,l10n_chart_it_cdo
 031002,031002,risconti attivi,account.data_account_type_prepayments,031,FALSE,l10n_chart_it_cdo
 041001,041001,risultato gestionale esercizio in corso,account.data_account_type_equity,041,FALSE,l10n_chart_it_cdo
