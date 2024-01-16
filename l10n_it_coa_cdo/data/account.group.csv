@@ -1,0 +1,59 @@
+id,code_prefix,name,parent_id:id
+01,01,IMMOBILIZZAZIONI ,
+011,011,Immobilizzazioni immateriali,01
+012,012,Immobilizzazioni materiali,01
+013,013,Immobilizzazioni finanziarie,01
+02,02,ATTIVO CIRCOLANTE,
+021,021,Rimanenze,02
+022,022,Crediti verso clienti,02
+023,023,Verso altri,02
+024,024,Attività finanziarie non immobilizzate,02
+025,025,Disponibilità liquide,02
+03,03,RATEI E RISCONTI,
+031,031,Ratei e Risconti,03
+04,04,PATRIMIONIO NETTO,
+041,041,Patrimonio libero,04
+042,042,Fondo di dotazione dell'ente,04
+043,043,Patrimonio vincolato/investito,04
+05,05,FONDI PER RISCHI E ONERI,
+051,051,Fondi per rischi e oneri,05
+06,06,TRATTAMENTO DI FINE RAPPORTO ,
+061,061,Trattamento di fine rapporto,06
+07,07,DEBITI,
+071,071,Debiti v/fornitori,07
+072,072,Debiti v/personale,07
+073,073,Crediti verso enti previdenziali,07
+074,074,Debiti v/erario,07
+075,075,Altri debiti,07
+076,076,Fornitori per fatture da ricevere,07
+08,08,RATEI E RISCONTI,
+081,081,Ratei e risconti,08
+20,20,ONERI DA ATTIVITA' ,
+201,201,Acquisto di beni,20
+202,202,Acquisto di Servizi,20
+203,203,Godimento di beni di terzi,20
+204,204,Personale struttura: dipendenti e assimilati,20
+205,205,Ammortamenti,20
+206,206,Oneri diversi di gestione,20
+21,21,ONERI FINANZIARI E PATRIMONIALI,
+211,211,Su rapporti bancari,21
+212,212,Su prestiti,21
+213,213,Oneri straordinari,21
+22,22,IMPOSTE D'ESERCIZIO,
+221,221,Imposte d'esercizio,22
+30,30,PROVENTI E RICAVI DA ATTIVITA' TIPICHE,
+301,301,da contributi da progetti finanziati,30
+302,302,Da contratti con enti pubblici,30
+303,303,Quote Associative,30
+304,304,Servizi ai Soci,30
+305,305,Servizi ai non soci,30
+306,306,Altri proventi e ricavi,30
+31,31,PROVENTI E RICAVI DA ATTIVITA' ACCESSORIE,
+311,311,Da gestioni commerciali accessorie,31
+32,32,PROVENTI FINANZIARI E PATRIMONIALI,
+321,321,Da rapporti bancari,32
+322,322,Da altri investimenti finanziari,32
+33,33,PROVENTI STRAORDINARI,
+331,331,Da attività finanziarie,33
+99,99,BILANCIO ,
+991,991,BILANCIO D'ESERCIZIO,99

@@ -1,0 +1,144 @@
+id,code,name,user_type_id:id,group_id:id,reconcile,chart_template_id:id
+011001,011001,spese modifica statuto,account.data_account_type_current_assets,011,FALSE,l10n_chart_it_cdo
+011002,011002,"costi di ricerca, sviluppo e di pubblicità",account.data_account_type_current_assets,011,FALSE,l10n_chart_it_cdo
+011003,011003,diritti di brevetto e utilizzazione opere ingegno,account.data_account_type_current_assets,011,FALSE,l10n_chart_it_cdo
+011004,011004,spese manutenzioni da ammortizzare,account.data_account_type_current_assets,011,FALSE,l10n_chart_it_cdo
+011005,011005,oneri pluriennali,account.data_account_type_current_assets,011,FALSE,l10n_chart_it_cdo
+011006,011006,altre,account.data_account_type_current_assets,011,FALSE,l10n_chart_it_cdo
+012001,012001,terreni e fabbricati,account.data_account_type_current_assets,012,FALSE,l10n_chart_it_cdo
+012002,012002,impianti e attrezzature,account.data_account_type_current_assets,012,FALSE,l10n_chart_it_cdo
+012003,012003,altri beni,account.data_account_type_current_assets,012,FALSE,l10n_chart_it_cdo
+012004,012004,immobilizzazioni in corso e acconti,account.data_account_type_current_assets,012,FALSE,l10n_chart_it_cdo
+012005,012005,terreni e fabbricati relativi all'attività istituzionale,account.data_account_type_current_assets,012,FALSE,l10n_chart_it_cdo
+012006,012006,mobili ed arredi,account.data_account_type_current_assets,012,FALSE,l10n_chart_it_cdo
+012007,012007,macchine uff. elettroniche,account.data_account_type_current_assets,012,FALSE,l10n_chart_it_cdo
+012100,012100,fondo ammortamento impianti e attrezzature,account.data_account_type_current_assets,012,FALSE,l10n_chart_it_cdo
+012101,012101,fondo ammortamento imm.altri beni,account.data_account_type_current_assets,012,FALSE,l10n_chart_it_cdo
+013001,013001,partecipazioni,account.data_account_type_current_assets,013,FALSE,l10n_chart_it_cdo
+013002,013002,crediti,account.data_account_type_current_assets,013,FALSE,l10n_chart_it_cdo
+013003,013003,altri titoli,account.data_account_type_current_assets,013,FALSE,l10n_chart_it_cdo
+021001,021001,"materie prime, sussidiarie e di consumo",account.data_account_type_current_assets,021,FALSE,l10n_chart_it_cdo
+021002,021002,prodotti in corso di lavorazione e semilavorati,account.data_account_type_current_assets,021,FALSE,l10n_chart_it_cdo
+021003,021003,lavori in corso su ordinazione,account.data_account_type_current_assets,021,FALSE,l10n_chart_it_cdo
+021004,021004,prodotti finiti e merci,account.data_account_type_current_assets,021,FALSE,l10n_chart_it_cdo
+021005,021005,acconti,account.data_account_type_current_assets,021,FALSE,l10n_chart_it_cdo
+022000,022000,Crediti verso clienti,account.data_account_type_receivable,022,True,l10n_chart_it_cdo
+023001,023001,crediti Ires,account.data_account_type_current_assets,023,FALSE,l10n_chart_it_cdo
+023002,023002,crediti Irap,account.data_account_type_current_assets,023,FALSE,l10n_chart_it_cdo
+023003,023003,acconti Ires,account.data_account_type_current_assets,023,FALSE,l10n_chart_it_cdo
+023004,023004,acconti Irap,account.data_account_type_current_assets,023,FALSE,l10n_chart_it_cdo
+023005,023005,crediti verso enti previdenziali,account.data_account_type_current_assets,023,FALSE,l10n_chart_it_cdo
+023006,023006,altri crediti,account.data_account_type_current_assets,023,FALSE,l10n_chart_it_cdo
+023007,023007,Crediti per fatture da emettere,account.data_account_type_current_assets,023,FALSE,l10n_chart_it_cdo
+023008,023008,acconti Inail,account.data_account_type_current_assets,023,FALSE,l10n_chart_it_cdo
+023009,023009,iva c/acquisti,account.data_account_type_current_assets,023,FALSE,l10n_chart_it_cdo
+023010,023010,iva c/acquisti UE,account.data_account_type_current_assets,023,FALSE,l10n_chart_it_cdo
+024001,024001,partecipazioni,account.data_account_type_current_assets,024,FALSE,l10n_chart_it_cdo
+024002,024002,altri titoli,account.data_account_type_current_assets,024,FALSE,l10n_chart_it_cdo
+025001,025001,banca popolare di Milano,account.data_account_type_liquidity,025,FALSE,l10n_chart_it_cdo
+025002,025002,assegni,account.data_account_type_liquidity,025,FALSE,l10n_chart_it_cdo
+025003,025003,denaro e valori in cassa,account.data_account_type_liquidity,025,FALSE,l10n_chart_it_cdo
+025004,025004,carta jeans,account.data_account_type_liquidity,025,FALSE,l10n_chart_it_cdo
+025005,025005,Carta Impronta Business,account.data_account_type_liquidity,025,FALSE,l10n_chart_it_cdo
+031001,031001,ratei attivi,account.data_account_type_current_assets,031,FALSE,l10n_chart_it_cdo
+031002,031002,risconti attivi,account.data_account_type_prepayments,031,FALSE,l10n_chart_it_cdo
+041001,041001,risultato gestionale esercizio in corso,account.data_account_type_equity,041,FALSE,l10n_chart_it_cdo
+041002,041002,risultato gestionale da esercizi precedenti,account.data_account_type_equity,041,FALSE,l10n_chart_it_cdo
+041003,041003,riserve statutarie,account.data_account_type_equity,041,FALSE,l10n_chart_it_cdo
+042001,042001,fondo dotazione dell'ente,account.data_account_type_equity,042,FALSE,l10n_chart_it_cdo
+043001,043001,fondi vincolati destinati a terzi,account.data_account_type_equity,043,FALSE,l10n_chart_it_cdo
+043002,043002,fondi vincolati per decisione degli organi istituzionali,account.data_account_type_equity,043,FALSE,l10n_chart_it_cdo
+051001,051001,per trattamenti di quiescenza e obbighi simili,account.data_account_type_current_liabilities,051,FALSE,l10n_chart_it_cdo
+051002,051002,altri,account.data_account_type_current_liabilities,051,FALSE,l10n_chart_it_cdo
+061001,061001,TFR,account.data_account_type_current_liabilities,061,FALSE,l10n_chart_it_cdo
+071000,071000,Debiti v/fornitori,account.data_account_type_payable,071,True,l10n_chart_it_cdo
+072001,072001,debiti v/personale,account.data_account_type_current_liabilities,072,FALSE,l10n_chart_it_cdo
+072002,072002,dipendenti c/arrotondamenti,account.data_account_type_current_liabilities,072,FALSE,l10n_chart_it_cdo
+073001,073001,debiti v/Inps,account.data_account_type_current_liabilities,073,FALSE,l10n_chart_it_cdo
+073002,073002,debiti v/Inail,account.data_account_type_current_liabilities,073,FALSE,l10n_chart_it_cdo
+073003,073003,debiti v/altri enti,account.data_account_type_current_liabilities,073,FALSE,l10n_chart_it_cdo
+074001,074001,debiti v/erario ritenute dipendenti,account.data_account_type_current_liabilities,074,FALSE,l10n_chart_it_cdo
+074002,074002,debiti v/erario ritenute acconto lavoro autonomo,account.data_account_type_current_liabilities,074,FALSE,l10n_chart_it_cdo
+074003,074003,debiti v/erario IRES,account.data_account_type_current_liabilities,074,FALSE,l10n_chart_it_cdo
+074004,074004,debiti v/erario IRAP,account.data_account_type_current_liabilities,074,FALSE,l10n_chart_it_cdo
+074005,074005,iva c/vendite,account.data_account_type_current_liabilities,074,FALSE,l10n_chart_it_cdo
+074006,074006,Debiti per imposta sostitutiva,account.data_account_type_current_liabilities,074,FALSE,l10n_chart_it_cdo
+074007,074007,iva c/vendite UE,account.data_account_type_current_liabilities,074,FALSE,l10n_chart_it_cdo
+075001,075001,debiti per note spese da liquidare,account.data_account_type_current_liabilities,075,FALSE,l10n_chart_it_cdo
+075002,075002,debiti per note spese da liquidare varie,account.data_account_type_current_liabilities,075,FALSE,l10n_chart_it_cdo
+076001,076001,fornitori per fatture da ricevere,account.data_account_type_current_liabilities,076,FALSE,l10n_chart_it_cdo
+076002,076002,acconti e anticipi da clienti,account.data_account_type_current_liabilities,076,FALSE,l10n_chart_it_cdo
+081001,081001,ratei passivi su stipendi,account.data_account_type_current_liabilities,081,FALSE,l10n_chart_it_cdo
+081002,081002,ratei passivi,account.data_account_type_current_liabilities,081,FALSE,l10n_chart_it_cdo
+081003,081003,risconti passivi,account.data_account_type_current_liabilities,081,FALSE,l10n_chart_it_cdo
+201001,201001,"beni inf.milione 516,46",account.data_account_type_direct_costs,201,FALSE,l10n_chart_it_cdo
+201002,201002,cancelleria e stampati,account.data_account_type_direct_costs,201,FALSE,l10n_chart_it_cdo
+201003,201003,costi ufficio,account.data_account_type_direct_costs,201,FALSE,l10n_chart_it_cdo
+201004,201004,materiale di consumo,account.data_account_type_direct_costs,201,FALSE,l10n_chart_it_cdo
+201005,201005,altri beni,account.data_account_type_direct_costs,201,FALSE,l10n_chart_it_cdo
+202001,202001,utenze,account.data_account_type_expenses,202,FALSE,l10n_chart_it_cdo
+202002,202002,telefonia,account.data_account_type_expenses,202,FALSE,l10n_chart_it_cdo
+202003,202003,spese postali,account.data_account_type_expenses,202,FALSE,l10n_chart_it_cdo
+202004,202004,valori bollati,account.data_account_type_expenses,202,FALSE,l10n_chart_it_cdo
+202005,202005,manutenzioni,account.data_account_type_expenses,202,FALSE,l10n_chart_it_cdo
+202006,202006,spese per servizi vari,account.data_account_type_expenses,202,FALSE,l10n_chart_it_cdo
+202007,202007,assicurazioni,account.data_account_type_expenses,202,FALSE,l10n_chart_it_cdo
+202008,202008,sicurezza,account.data_account_type_expenses,202,FALSE,l10n_chart_it_cdo
+202009,202009,servizi di collegamento audio video,account.data_account_type_expenses,202,FALSE,l10n_chart_it_cdo
+202010,202010,servizio catering e ristorazione,account.data_account_type_expenses,202,FALSE,l10n_chart_it_cdo
+202011,202011,servizi legali e notarili,account.data_account_type_expenses,202,FALSE,l10n_chart_it_cdo
+202012,202012,consulenze,account.data_account_type_expenses,202,FALSE,l10n_chart_it_cdo
+202013,202013,collaborazioni occasionali,account.data_account_type_expenses,202,FALSE,l10n_chart_it_cdo
+202014,202014,servizi di stampa e grafica,account.data_account_type_expenses,202,FALSE,l10n_chart_it_cdo
+202015,202015,servizi pubblicitari,account.data_account_type_expenses,202,FALSE,l10n_chart_it_cdo
+203001,203001,affitto,account.data_account_type_expenses,203,FALSE,l10n_chart_it_cdo
+203002,203002,nolo spazi fieristici,account.data_account_type_expenses,203,FALSE,l10n_chart_it_cdo
+204001,204001,dipendenti,account.data_account_type_expenses,204,FALSE,l10n_chart_it_cdo
+204002,204002,contributi dipendenti,account.data_account_type_expenses,204,FALSE,l10n_chart_it_cdo
+204003,204003,acc.to TFR dipendenti,account.data_account_type_expenses,204,FALSE,l10n_chart_it_cdo
+204004,204004,rimborsi spese,account.data_account_type_expenses,204,FALSE,l10n_chart_it_cdo
+204005,204005,fondo Est,account.data_account_type_expenses,204,FALSE,l10n_chart_it_cdo
+204006,204006,altri costi per i dipendenti,account.data_account_type_expenses,204,FALSE,l10n_chart_it_cdo
+204007,204007,collaborazioni co.co,account.data_account_type_expenses,204,FALSE,l10n_chart_it_cdo
+204008,204008,contributi su co.co,account.data_account_type_expenses,204,FALSE,l10n_chart_it_cdo
+204009,204009,acconti inail,account.data_account_type_expenses,204,FALSE,l10n_chart_it_cdo
+204010,204010,imposta sostitutiva TFR,account.data_account_type_expenses,204,FALSE,l10n_chart_it_cdo
+205001,205001,ammortamenti imm.immateriali,account.data_account_type_depreciation,205,FALSE,l10n_chart_it_cdo
+205002,205002,ammortamenti imm.materiali,account.data_account_type_depreciation,205,FALSE,l10n_chart_it_cdo
+206001,206001,quote associative ad enti terzi,account.data_account_type_expenses,206,FALSE,l10n_chart_it_cdo
+206002,206002,liberalità,account.data_account_type_expenses,206,FALSE,l10n_chart_it_cdo
+206003,206003,abbuoni passivi,account.data_account_type_expenses,206,FALSE,l10n_chart_it_cdo
+206004,206004,spese di vitto alloggio e viaggi,account.data_account_type_expenses,206,FALSE,l10n_chart_it_cdo
+206005,206005,oneri bancari,account.data_account_type_expenses,206,FALSE,l10n_chart_it_cdo
+206006,206006,sanzioni e ammende,account.data_account_type_expenses,206,FALSE,l10n_chart_it_cdo
+206007,206007,minusvalenze,account.data_account_type_expenses,206,FALSE,l10n_chart_it_cdo
+206008,206008,abbonamenti e acquisto libri,account.data_account_type_expenses,206,FALSE,l10n_chart_it_cdo
+206009,206009,omaggi e spese di rappresentanza,account.data_account_type_expenses,206,FALSE,l10n_chart_it_cdo
+206010,206010,sopravvenienze passive,account.data_account_type_expenses,206,FALSE,l10n_chart_it_cdo
+206011,206011,"partecipazione corsi, eventi ecc.",account.data_account_type_expenses,206,FALSE,l10n_chart_it_cdo
+206012,206012,spese diverse,account.data_account_type_expenses,206,FALSE,l10n_chart_it_cdo
+206013,206013,spese vitto e alloggio per convegni istituzionali e corsi,account.data_account_type_expenses,206,FALSE,l10n_chart_it_cdo
+206100,206100,perdite su crediti,account.data_account_type_expenses,206,FALSE,l10n_chart_it_cdo
+211001,211001,interessi passivi su cc,account.data_account_type_expenses,211,FALSE,l10n_chart_it_cdo
+212001,212001,interessi passivi su prestiti,account.data_account_type_expenses,212,FALSE,l10n_chart_it_cdo
+213001,213001,oneri straordinari,account.data_account_type_expenses,213,FALSE,l10n_chart_it_cdo
+221001,221001,ires,account.data_account_type_expenses,221,FALSE,l10n_chart_it_cdo
+221002,221002,irap,account.data_account_type_expenses,221,FALSE,l10n_chart_it_cdo
+221003,221003,Inail,account.data_account_type_expenses,221,FALSE,l10n_chart_it_cdo
+301001,301001,da contributi da progetti finanziati,account.data_account_type_revenue,301,FALSE,l10n_chart_it_cdo
+302001,302001,da contratti con enti pubblici,account.data_account_type_revenue,302,FALSE,l10n_chart_it_cdo
+303001,303001,quote associative,account.data_account_type_revenue,303,FALSE,l10n_chart_it_cdo
+304001,304001,servizi ai soci,account.data_account_type_revenue,304,FALSE,l10n_chart_it_cdo
+305001,305001,servizi ai non soci,account.data_account_type_revenue,305,FALSE,l10n_chart_it_cdo
+306001,306001,altri proventi e ricavi,account.data_account_type_revenue,306,FALSE,l10n_chart_it_cdo
+306002,306002,abbuoni attivi,account.data_account_type_revenue,306,FALSE,l10n_chart_it_cdo
+311001,311001,da gestioni commerciali accessorie,account.data_account_type_revenue,311,FALSE,l10n_chart_it_cdo
+311002,311002,vendita pubblicazioni e altro,account.data_account_type_revenue,311,FALSE,l10n_chart_it_cdo
+311100,311100,iva ricavo 50%,account.data_account_type_revenue,311,FALSE,l10n_chart_it_cdo
+321001,321001,interessi attivi su cc,account.data_account_type_revenue,321,FALSE,l10n_chart_it_cdo
+322001,322001,interesi su titoli,account.data_account_type_revenue,322,FALSE,l10n_chart_it_cdo
+331001,331001,proventi straordinari,account.data_account_type_revenue,331,FALSE,l10n_chart_it_cdo
+331002,331002,sopravvenienze attive,account.data_account_type_revenue,331,FALSE,l10n_chart_it_cdo
+991001,991001,Stato Patrimoniale iniziale,account.data_account_type_non_current_liabilities,991,FALSE,l10n_chart_it_cdo
+991002,991002,Stato Patrimoniale finale,account.data_account_type_non_current_liabilities,991,FALSE,l10n_chart_it_cdo
+991003,991003,Profitti e Perdite,account.data_unaffected_earnings,991,FALSE,l10n_chart_it_cdo
