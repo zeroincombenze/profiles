@@ -1,0 +1,59 @@
+2024-01-17 12:20:54,000 3541292 DAEMON test_profile_account_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
+2024-01-17 11:24:51,144 3543109 INFO ? odoo: Odoo version 10.0
+2024-01-17 11:24:51,145 3543109 INFO ? odoo: Using configuration file at /home/odoo/10.0/profiles/profile_account/tests/logs/zero10.profiles.profile_account.conf
+2024-01-17 11:24:51,145 3543109 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo10/addons/10.0', u'/home/odoo/10.0/odoo/addons', u'/home/odoo/10.0/addons', u'/home/odoo/10.0/account-analytic', u'/home/odoo/10.0/account-budgeting', u'/home/odoo/10.0/account-closing', u'/home/odoo/10.0/account-consolidation', u'/home/odoo/10.0/account-financial-reporting', u'/home/odoo/10.0/account-financial-tools', u'/home/odoo/10.0/account-fiscal-rule', u'/home/odoo/10.0/account-invoice-reporting', u'/home/odoo/10.0/account-invoicing', u'/home/odoo/10.0/account-payment', u'/home/odoo/10.0/account-reconcile', u'/home/odoo/10.0/apps-store', u'/home/odoo/10.0/bank-payment', u'/home/odoo/10.0/bank-statement-import', u'/home/odoo/10.0/business-requirement', u'/home/odoo/10.0/calendar', u'/home/odoo/10.0/commission', u'/home/odoo/10.0/community-data-files', u'/home/odoo/10.0/connector', u'/home/odoo/10.0/contract', u'/home/odoo/10.0/credit-control', u'/home/odoo/10.0/crm', u'/home/odoo/10.0/currency', u'/home/odoo/10.0/data-protection', u'/home/odoo/10.0/delivery-carrier', u'/home/odoo/10.0/donation', u'/home/odoo/10.0/e-commerce', u'/home/odoo/10.0/edi', u'/home/odoo/10.0/event', u'/home/odoo/10.0/geospatial', u'/home/odoo/10.0/helpdesk', u'/home/odoo/10.0/hr', u'/home/odoo/10.0/infrastructure', u'/home/odoo/10.0/intrastat-extrastat', u'/home/odoo/10.0/knowledge', u'/home/odoo/10.0/l10n-italy', u'/home/odoo/10.0/l10n-italy-supplemental', u'/home/odoo/10.0/maintenance', u'/home/odoo/10.0/management-system', u'/home/odoo/10.0/manufacture', u'/home/odoo/10.0/manufacture-reporting', u'/home/odoo/10.0/margin-analysis', u'/home/odoo/10.0/mgmtsystem', u'/home/odoo/10.0/multi-company', u'/home/odoo/10.0/operating-unit', u'/home/odoo/10.0/partner-contact', u'/home/odoo/10.0/pos', u'/home/odoo/10.0/product-attribute', u'/home/odoo/10.0/product-kitting', u'/home/odoo/10.0/product-variant', u'/home/odoo/10.0/profiles', u'/home/odoo/10.0/project', u'/home/odoo/10.0/project-agile', u'/home/odoo/10.0/project-reporting', u'/home/odoo/10.0/purchase-reporting', u'/home/odoo/10.0/purchase-workflow', u'/home/odoo/10.0/queue', u'/home/odoo/10.0/report-print-send', u'/home/odoo/10.0/reporting-engine', u'/home/odoo/10.0/rma', u'/home/odoo/10.0/sale-financial', u'/home/odoo/10.0/sale-reporting', u'/home/odoo/10.0/sale-workflow', u'/home/odoo/10.0/search-engine', u'/home/odoo/10.0/server-auth', u'/home/odoo/10.0/server-tools', u'/home/odoo/10.0/server-ux', u'/home/odoo/10.0/social', u'/home/odoo/10.0/stock-logistics-barcode', u'/home/odoo/10.0/stock-logistics-reporting', u'/home/odoo/10.0/stock-logistics-tracking', u'/home/odoo/10.0/stock-logistics-transport', u'/home/odoo/10.0/stock-logistics-warehouse', u'/home/odoo/10.0/stock-logistics-workflow', u'/home/odoo/10.0/storage', u'/home/odoo/10.0/timesheet', u'/home/odoo/10.0/uncovered', u'/home/odoo/10.0/web', u'/home/odoo/10.0/webhook', u'/home/odoo/10.0/webkit-tools', u'/home/odoo/10.0/website', u'/home/odoo/10.0/website-cms', u'/home/odoo/10.0/wms', u'/home/odoo/10.0/zerobug-test']
+2024-01-17 11:24:51,145 3543109 INFO ? odoo: database: odoo10@localhost:default
+2024-01-17 11:24:51,171 3543109 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:59450
+2024-01-17 11:24:51,215 3543109 INFO test_profile_account_10 odoo.modules.loading: loading 1 modules...
+2024-01-17 11:24:51,382 3543109 INFO test_profile_account_10 odoo.modules.loading: 1 modules loaded in 0.17s, 0 queries
+2024-01-17 11:25:24,808 3543109 INFO test_profile_account_10 odoo.modules.loading: loading 76 modules...
+2024-01-17 11:25:25,022 3543109 INFO test_profile_account_10 odoo.addons.report.models.report: Will use the Wkhtmltopdf binary at /home/odoo/10.0/venv_odoo/bin/wkhtmltopdf
+2024-01-17 11:25:25,352 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method AccountVatCommunication.get_xml_company in module odoo.addons.l10n_it_vat_communication.models.account
+2024-01-17 11:25:25,352 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method AccountVatCommunication.get_xml_invoice in module odoo.addons.l10n_it_vat_communication.models.account
+2024-01-17 11:25:25,352 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method AccountVatCommunication.get_xml_fattura_header in module odoo.addons.l10n_it_vat_communication.models.account
+2024-01-17 11:25:25,352 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method AccountVatCommunication.communication_open in module odoo.addons.l10n_it_vat_communication.models.account
+2024-01-17 11:25:25,353 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method AccountVatCommunication.build_tax_tree in module odoo.addons.l10n_it_vat_communication.models.account
+2024-01-17 11:25:25,353 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method AccountVatCommunication.get_xml_cessionario_cedente in module odoo.addons.l10n_it_vat_communication.models.account
+2024-01-17 11:25:25,353 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method AccountVatCommunication.communication_draft in module odoo.addons.l10n_it_vat_communication.models.account
+2024-01-17 11:25:25,354 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method AccountVatCommunication.test_open in module odoo.addons.l10n_it_vat_communication.models.account
+2024-01-17 11:25:25,354 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method AccountVatCommunication.get_invoice_list in module odoo.addons.l10n_it_vat_communication.models.account
+2024-01-17 11:25:25,354 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method AccountVatCommunication.get_riepilogo_list in module odoo.addons.l10n_it_vat_communication.models.account
+2024-01-17 11:25:25,355 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method AccountVatCommunication.get_partner_list in module odoo.addons.l10n_it_vat_communication.models.account
+2024-01-17 11:25:25,355 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method AccountVatCommunication.set_progressivo_telematico in module odoo.addons.l10n_it_vat_communication.models.account
+2024-01-17 11:25:25,355 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method AccountVatCommunication.onchange_fiscalcode in module odoo.addons.l10n_it_vat_communication.models.account
+2024-01-17 11:25:25,355 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method AccountVatCommunication.get_xml_riepilogo in module odoo.addons.l10n_it_vat_communication.models.account
+2024-01-17 11:25:25,550 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method WizardVatCommunication.old_export_vat_communication_DTR in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-01-17 11:25:25,550 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method WizardVatCommunication.old_export_vat_communication in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-01-17 11:25:25,550 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method WizardVatCommunication.old_get_name in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-01-17 11:25:25,550 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method WizardVatCommunication.old_get_sede in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-01-17 11:25:25,550 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method WizardVatCommunication.old_get_cedente_prestatore in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-01-17 11:25:25,550 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method WizardVatCommunication.old_get_dati_fattura_header in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-01-17 11:25:25,551 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method WizardVatCommunication.old_get_cessionario_committente in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-01-17 11:25:25,551 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method WizardVatCommunication.old_get_dte_dtr in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-01-17 11:25:25,551 3543109 WARNING test_profile_account_10 odoo.api: Deprecated method WizardVatCommunication.old_export_vat_communication_DTE in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-01-17 11:25:25,726 3543109 INFO test_profile_account_10 odoo.modules.loading: 76 modules loaded in 0.92s, 0 queries
+2024-01-17 11:25:25,733 3543109 INFO test_profile_account_10 odoo.modules.loading: loading 77 modules...
+2024-01-17 11:25:25,762 3543109 WARNING test_profile_account_10 odoo.fields: Field account.vat.communication.dte.line.tax_vat_id with unknown comodel_name 'account.tax.code'
+2024-01-17 11:25:26,114 3543109 WARNING test_profile_account_10 odoo.fields: Field account.vat.communication.dtr.line.tax_vat_id with unknown comodel_name 'account.tax.code'
+2024-01-17 11:25:26,310 3543109 WARNING test_profile_account_10 odoo.fields: Field account.invoice.amount_total depends on itself; please fix its decorator @api.depends().
+2024-01-17 11:25:26,310 3543109 WARNING test_profile_account_10 odoo.fields: Field account.invoice.amount_total depends on itself; please fix its decorator @api.depends().
+2024-01-17 11:25:26,489 3543109 WARNING test_profile_account_10 odoo.fields: Field account.invoice.amount_total depends on itself; please fix its decorator @api.depends().
+2024-01-17 11:25:26,490 3543109 WARNING test_profile_account_10 odoo.fields: Field account.invoice.amount_total depends on itself; please fix its decorator @api.depends().
+2024-01-17 11:25:26,526 3543109 INFO test_profile_account_10 odoo.modules.registry: module profile_account: creating or updating database tables
+2024-01-17 11:25:26,635 3543109 INFO test_profile_account_10 odoo.addons.base.ir.ir_translation: module profile_account: no translation for language it
+2024-01-17 11:25:26,683 3543109 INFO test_profile_account_10 odoo.modules.loading: 77 modules loaded in 0.95s, 6 queries
+2024-01-17 11:25:26,833 3543109 WARNING test_profile_account_10 odoo.fields: Field account.invoice.amount_total depends on itself; please fix its decorator @api.depends().
+2024-01-17 11:25:26,833 3543109 WARNING test_profile_account_10 odoo.fields: Field account.invoice.amount_total depends on itself; please fix its decorator @api.depends().
+2024-01-17 11:25:27,527 3543109 INFO test_profile_account_10 odoo.modules.loading: Modules loaded.
+2024-01-17 11:25:27,543 3543109 INFO test_profile_account_10 odoo.modules.loading: All post-tested in 0.00s, 0 queries
+2024-01-17 11:25:27,544 3543109 INFO test_profile_account_10 odoo.modules.registry: Registry changed, signaling through the database
+2024-01-17 11:25:27,545 3543109 INFO test_profile_account_10 odoo.service.server: Initiating shutdown
+2024-01-17 11:25:27,545 3543109 INFO test_profile_account_10 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+
++===================================================================
+| please test [36mprofile_account[0m (10.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/10.0/profiles/profile_account/tests/logs/coverage_profile_account_10rc -m
+[34;107mNo data to report.
+[0m

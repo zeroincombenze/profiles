@@ -5,7 +5,7 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
 {
-    "name": "profile account",
+    "name": "Accounting Profile",
     "version": "10.0.0.1.2",
     "category": "Technical Settings",
     "summary": "Accounting installation profile",
