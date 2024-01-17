@@ -5,7 +5,7 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
 {
-    "name": "profile_common",
+    "name": "Common profile",
     "version": "10.0.1.0.2",
     "category": "Technical Settings",
     "summary": "Common setup for all profiles",
@@ -15,7 +15,7 @@
     "license": "AGPL-3",
     "depends": [
         "calendar",
-        "contacts",
+        "mail",
         "mail",
         "product",
         "stock",
@@ -24,5 +24,4 @@
     "data": ["data/initial_conf.xml"],
     "maintainer": "Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>",
     "installable": True,
-    "post_init_hook": "set_default_values",
 }
