@@ -1,0 +1,44 @@
+2024-01-17 12:07:10,000 3533778 DAEMON test_profile_account_12 run_odoo_debug.sh: cd /home/odoo/12.0/venv_odoo && source ./bin/activate
+2024-01-17 11:10:54,715 3535577 INFO ? odoo: Odoo version 12.0 
+2024-01-17 11:10:54,715 3535577 INFO ? odoo: Using configuration file at /home/odoo/12.0/profiles/profile_account/tests/logs/zero12.profiles.profile_account.conf 
+2024-01-17 11:10:54,715 3535577 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo12/addons/12.0', '/home/odoo/12.0/odoo/addons', '/home/odoo/12.0/addons', '/home/odoo/.local/share/Odoo12/addons', '/home/odoo/12.0/account-analytic', '/home/odoo/12.0/account-budgeting', '/home/odoo/12.0/account-closing', '/home/odoo/12.0/account-consolidation', '/home/odoo/12.0/account-financial-reporting', '/home/odoo/12.0/account-financial-tools', '/home/odoo/12.0/account-fiscal-rule', '/home/odoo/12.0/account-invoice-reporting', '/home/odoo/12.0/account-invoicing', '/home/odoo/12.0/account-payment', '/home/odoo/12.0/account-reconcile', '/home/odoo/12.0/apps-store', '/home/odoo/12.0/bank-payment', '/home/odoo/12.0/bank-statement-import', '/home/odoo/12.0/brand', '/home/odoo/12.0/business-requirement', '/home/odoo/12.0/calendar', '/home/odoo/12.0/commission', '/home/odoo/12.0/community-data-files', '/home/odoo/12.0/connector', '/home/odoo/12.0/contract', '/home/odoo/12.0/credit-control', '/home/odoo/12.0/crm', '/home/odoo/12.0/currency', '/home/odoo/12.0/data-protection', '/home/odoo/12.0/delivery-carrier', '/home/odoo/12.0/dms', '/home/odoo/12.0/e-commerce', '/home/odoo/12.0/edi', '/home/odoo/12.0/geospatial', '/home/odoo/12.0/helpdesk', '/home/odoo/12.0/hr', '/home/odoo/12.0/intrastat-extrastat', '/home/odoo/12.0/iot', '/home/odoo/12.0/knowledge', '/home/odoo/12.0/l10n-italy', '/home/odoo/12.0/l10n-italy-supplemental', '/home/odoo/12.0/maintenance', '/home/odoo/12.0/mgmtsystem', '/home/odoo/12.0/manufacture', '/home/odoo/12.0/manufacture-reporting', '/home/odoo/12.0/margin-analysis', '/home/odoo/12.0/mis-builder', '/home/odoo/12.0/mis-builder-contrib', '/home/odoo/12.0/multi-company', '/home/odoo/12.0/partner-contact', '/home/odoo/12.0/pos', '/home/odoo/12.0/product-attribute', '/home/odoo/12.0/product-pack', '/home/odoo/12.0/product-variant', '/home/odoo/12.0/profiles', '/home/odoo/12.0/project', '/home/odoo/12.0/project-agile', '/home/odoo/12.0/project-reporting', '/home/odoo/12.0/purchase-reporting', '/home/odoo/12.0/purchase-workflow', '/home/odoo/12.0/queue', '/home/odoo/12.0/report-print-send', '/home/odoo/12.0/reporting-engine', '/home/odoo/12.0/rma', '/home/odoo/12.0/sale-reporting', '/home/odoo/12.0/sale-workflow', '/home/odoo/12.0/search-engine', '/home/odoo/12.0/server-auth', '/home/odoo/12.0/server-backend', '/home/odoo/12.0/server-brand', '/home/odoo/12.0/server-env', '/home/odoo/12.0/server-tools', '/home/odoo/12.0/server-ux', '/home/odoo/12.0/social', '/home/odoo/12.0/stock-logistics-barcode', '/home/odoo/12.0/stock-logistics-reporting', '/home/odoo/12.0/stock-logistics-transport', '/home/odoo/12.0/stock-logistics-warehouse', '/home/odoo/12.0/stock-logistics-workflow', '/home/odoo/12.0/storage', '/home/odoo/12.0/timesheet', '/home/odoo/12.0/uncovered', '/home/odoo/12.0/web', '/home/odoo/12.0/website', '/home/odoo/12.0/wms', '/home/odoo/12.0/zerobug-test', '/home/odoo/12.0/venv_odoo/lib/python3.7/site-packages/odoo/addons'] 
+2024-01-17 11:10:54,715 3535577 INFO ? odoo: database: odoo12@localhost:default 
+2024-01-17 11:10:54,828 3535577 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /home/odoo/12.0/venv_odoo/bin/wkhtmltopdf 
+2024-01-17 11:10:54,939 3535577 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:58625 
+2024-01-17 11:10:54,960 3535577 INFO test_profile_account_12 odoo.modules.loading: loading 1 modules... 
+2024-01-17 11:10:54,969 3535577 INFO test_profile_account_12 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2024-01-17 11:10:55,076 3535577 INFO test_profile_account_12 odoo.modules.loading: updating modules list 
+2024-01-17 11:10:55,082 3535577 INFO test_profile_account_12 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2024-01-17 11:11:05,432 3535577 INFO test_profile_account_12 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['profile_account'] to user __system__ #1 via n/a 
+2024-01-17 11:11:07,919 3535577 INFO test_profile_account_12 odoo.modules.loading: loading 127 modules... 
+2024-01-17 11:11:08,376 3535577 WARNING test_profile_account_12 odoo.models: The model wizard.confirm.zero.amount has no _description 
+2024-01-17 11:11:08,785 3535577 WARNING test_profile_account_12 odoo.models: The model partner.duedates.datarange has no _description 
+2024-01-17 11:11:08,983 3535577 WARNING test_profile_account_12 odoo.models: The model account.move.line.wrapper has no _description 
+2024-01-17 11:11:08,984 3535577 WARNING test_profile_account_12 odoo.models: The model account.mastrini.vat.brief.line has no _description 
+2024-01-17 11:11:08,984 3535577 WARNING test_profile_account_12 odoo.models: The model account.mastrini.wizardmodel has no _description 
+2024-01-17 11:11:08,991 3535577 WARNING test_profile_account_12 odoo.models: The model wizard.confirm.print.journal has no _description 
+2024-01-17 11:11:08,991 3535577 WARNING test_profile_account_12 odoo.models: The model wizard.confirm.reason.line has no _description 
+2024-01-17 11:11:09,611 3535577 WARNING test_profile_account_12 odoo.models: The model wizard.payment.order.credit has no _description 
+2024-01-17 11:11:09,719 3535577 INFO test_profile_account_12 odoo.modules.loading: 127 modules loaded in 1.80s, 0 queries 
+2024-01-17 11:11:09,727 3535577 INFO test_profile_account_12 odoo.modules.loading: loading 128 modules... 
+2024-01-17 11:11:09,885 3535577 WARNING test_profile_account_12 odoo.fields: Field date.range.type.parent_type_id: parameter 'select' is no longer supported; use 'index' instead. 
+2024-01-17 11:11:10,118 3535577 WARNING test_profile_account_12 odoo.fields: Field account.move.line.accrual_start_date: parameter 'select' is no longer supported; use 'index' instead. 
+2024-01-17 11:11:10,118 3535577 WARNING test_profile_account_12 odoo.fields: Field account.move.line.accrual_end_date: parameter 'select' is no longer supported; use 'index' instead. 
+2024-01-17 11:11:10,356 3535577 WARNING test_profile_account_12 odoo.fields: Field account.move.line.wrapper.my_line_id: parameter 'select' is no longer supported; use 'index' instead. 
+2024-01-17 11:11:10,969 3535577 INFO test_profile_account_12 odoo.modules.registry: module profile_account: creating or updating database tables 
+2024-01-17 11:11:10,988 3535577 INFO test_profile_account_12 odoo.modules.loading: Module profile_account: loading demo 
+2024-01-17 11:11:11,010 3535577 INFO test_profile_account_12 odoo.addons.base.models.ir_translation: module profile_account: no translation for language it 
+2024-01-17 11:11:11,069 3535577 INFO test_profile_account_12 odoo.modules.loading: 128 modules loaded in 1.34s, 6 queries 
+2024-01-17 11:11:12,241 3535577 INFO test_profile_account_12 odoo.modules.loading: Modules loaded. 
+2024-01-17 11:11:12,251 3535577 INFO test_profile_account_12 odoo.service.server: Starting post tests 
+2024-01-17 11:11:12,252 3535577 INFO test_profile_account_12 odoo.service.server: All post-tested in 0.00s, 0 queries 
+2024-01-17 11:11:12,252 3535577 INFO test_profile_account_12 odoo.service.server: Initiating shutdown 
+2024-01-17 11:11:12,252 3535577 INFO test_profile_account_12 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+
++===================================================================
+| please test [36mprofile_account[0m (12.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/12.0/profiles/profile_account/tests/logs/coverage_profile_account_12rc -m
+[34;107mNo data to report.
+[0m

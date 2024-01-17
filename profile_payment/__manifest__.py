@@ -1,13 +1,13 @@
 #
-# Copyright 2018-22 SHS-AV s.r.l. <https://www.zeroincombenze.it>
+# Copyright 2018-24 SHS-AV s.r.l. <https://www.zeroincombenze.it>
 #
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
 {
-    "name": "profile_payment",
+    "name": "Payment profile",
     "version": "12.0.1.0.2",
     "category": "Technical Settings",
-    "summary": "Payment and financial installation profile",
+    "summary": "Payment and financial modules installation",
     "author": "SHS-AV s.r.l.",
     "website": "https://www.zeroincombenze.it",
     "development_status": "Beta",

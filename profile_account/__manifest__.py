@@ -1,11 +1,10 @@
-# -*- coding: utf-8 -*-
 #
 # Copyright 2018-22 SHS-AV s.r.l. <https://www.zeroincombenze.it>
 #
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
 {
-    "name": "profile account",
+    "name": "Accounting Profile",
     "version": "12.0.0.1.2",
     "category": "Technical Settings",
     "summary": "Accounting installation profile",
