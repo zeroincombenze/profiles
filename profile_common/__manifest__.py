@@ -6,7 +6,7 @@
 #
 {
     "name": "Common profile",
-    "version": "10.0.1.0.2",
+    "version": "10.0.1.0.3",
     "category": "Technical Settings",
     "summary": "Common setup for all profiles",
     "author": "SHS-AV s.r.l.",
@@ -15,7 +15,8 @@
     "license": "AGPL-3",
     "depends": [
         "calendar",
-        "mail",
+        "contacts",
+        "mail",     # only 10.0
         "mail",
         "product",
         "stock",
