@@ -2,6 +2,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * [IMP] Use l10n_it_coa / PdC da l10n_it_coa
+* [IMP] Added module "web_sheet_full_width" and "delivery" and "product_by_supplier" and "sale_order_dates"
 * [QUA]
 
 10.0.1.0.3 (2024-01-14)
