@@ -1,16 +1,17 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright 2018-22 SHS-AV s.r.l. <https://www.zeroincombenze.it>
+# Copyright 2016-24 SHS-AV s.r.l. <https://www.zeroincombenze.it>
 #
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
-from odoo import api, SUPERUSER_ID
+from odoo import SUPERUSER_ID, api
 
 
 def set_company_default(cr):
     with api.Environment.manage():
         cr.execute(
-            "UPDATE res_company set tax_calculation_rounding_method='round_globally'")
+            "UPDATE res_company set tax_calculation_rounding_method='round_globally'"
+        )
 
 
 def set_user_zeroadm(cr):

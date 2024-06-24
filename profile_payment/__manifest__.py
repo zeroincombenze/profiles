@@ -1,5 +1,6 @@
+# -*- coding: utf-8 -*-
 #
-# Copyright 2018-24 SHS-AV s.r.l. <https://www.zeroincombenze.it>
+# Copyright 2016-24 SHS-AV s.r.l. <https://www.zeroincombenze.it>
 #
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
@@ -9,17 +10,14 @@
     "category": "Technical Settings",
     "summary": "Payment and financial modules installation",
     "author": "SHS-AV s.r.l.",
-    "website": "https://www.zeroincombenze.it",
+    "website": "https://www.zeroincombenze.it/crm",
     "development_status": "Beta",
     "license": "AGPL-3",
     "depends": [
         "profile_common",
         "assigned_bank",
         "l10n_it_ricevute_bancarie",
-        # "account_banking_invoice_financing",
-        # "account_banking_riba",
-        # "account_banking_sepa_direct_debit_ita",
-        # "account_banking_sepa_credit_trasfer_ita",
+        # "l10n_it_account_stamp",
     ],
     "maintainer": "Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>",
     "installable": True,

@@ -1,8 +1,8 @@
 ==============================================
-|icon| Profilo di base/profile_base 10.0.1.0.3
+|icon| Base profile/Profilo di base 10.0.1.0.3
 ==============================================
 
-**Base profile**
+**Base setup for minimal configuration Zeroincombenze(R)**
 
 .. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_base/static/description/icon.png
 
@@ -14,34 +14,35 @@
 Overview | Panoramica
 =====================
 
-|en| Module with common setup to customize an Odoo instance.
+|en| Module with common setup to customize.
 
 It installs:
-Personalizzazione
 
-Modulo con impostazioni base per installazione Odoo.
-
-Sono installati i seguenti moduli:
-
-* base
+* l10n_it_coa (Chart of Account Zeroincombenze)
 * l10n_it_fiscalcode
+* purchase
+* purchase_discount
 * report_xlsx
+* sale
+* stock
 
 
-|it| Personalizzazione
-
-Modulo con impostazioni base per installazione Odoo.
+|it| Modulo con impostazioni base.
 
 Sono installati i seguenti moduli:
 
-* base
+* l10n_it_coa (Piano dei conti Zeroincombenze)
 * l10n_it_fiscalcode
+* purchase (acquisti)
+* purchase_discount (sconti su acquisti)
 * report_xlsx (esportazione file Excel)
+* sale (vendite)
+* stock (magazzino)
 
 
 |thumbnail|
 
-.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_base/static/description/description.png
+.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_base/static/description/
 
 
 Getting started | Primi passi
@@ -142,17 +143,18 @@ ChangeLog History | Cronologia modifiche
 10.0.0
 ~~~~~~
 
+* [IMP] Use l10n_it_coa / PdC da l10n_it_coa
+* [QUA]
+
+10.0.0
+~~~~~~
+
 * [IMP] No CoA installer / Nessun P.d.C installato
 
-10.0.1.0.3 (2013-09-23)
-~~~~~~~~~~~~~~~~~~~~~~~
-
-* [FIX] New dependency name l10n_it_coa replaces old l10n_it_fiscal
 
 
-
-Credits | Didascalie
-====================
+Credits | Ringraziamenti
+========================
 
 Copyright
 ---------
@@ -167,8 +169,8 @@ Authors | Autori
 
 
 
-Contributors | Contributi da
-----------------------------
+Contributors | Partecipanti
+---------------------------
 
 * `Antonio Maria Vigliotti <antoniomaria.vigliotti@gmail.com>`__
 
@@ -198,7 +200,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2024-01-17
+Last Update / Ultimo aggiornamento: 2024-06-22
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
