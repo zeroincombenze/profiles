@@ -1,8 +1,8 @@
 ======================================================
-|icon| Accounting Profile/Profilo contabile 10.0.0.1.2
+|icon| Accounting Profile/Profilo contabile 10.0.1.0.0
 ======================================================
 
-**Accounting installation profile**
+**Accounting installation profile (Zeroincombenze)**
 
 .. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_account/static/description/icon.png
 
@@ -34,7 +34,7 @@ Installa:
 
 |thumbnail|
 
-.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_account/static/description/
+.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_account/static/description/description.png
 
 
 Getting started | Primi passi
@@ -132,6 +132,12 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 ChangeLog History | Cronologia modifiche
 ----------------------------------------
 
+10.0.1.0.0 (2024-06-24)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Added "account_group" "account_invoice_check_total" "account_financial_report_qweb"
+* [QUA]
+
 10.0.0.1.0 (2018-10-04)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -186,7 +192,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2024-06-22
+Last Update / Ultimo aggiornamento: 2024-06-24
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status

@@ -6,9 +6,9 @@
 #
 {
     "name": "Accounting Profile",
-    "version": "10.0.0.1.2",
+    "version": "10.0.1.0.0",
     "category": "Technical Settings",
-    "summary": "Accounting installation profile",
+    "summary": "Accounting installation profile (OCA)",
     "author": "SHS-AV s.r.l.",
     "website": "https://www.zeroincombenze.it/crm",
     "development_status": "Beta",
@@ -49,6 +49,7 @@
         "l10n_it_vat_registries",
         # "l10n_it_vat_statement_communication",
         "l10n_it_withholding_tax",
+        "account_financial_report_qweb",
     ],
     "maintainer": "Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>",
     "installable": True,
