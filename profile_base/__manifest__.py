@@ -5,9 +5,9 @@
 #
 {
     "name": "Base profile",
-    "version": "12.0.1.0.3",
+    "version": "12.0.1.0.4",
     "category": "Technical Settings",
-    "summary": "Base setup for minimal configuration",
+    "summary": "Base setup for minimal configuration Zeroincombenze(R)",
     "author": "SHS-AV s.r.l.",
     "website": "https://www.zeroincombenze.it/crm",
     "development_status": "Beta",
@@ -28,6 +28,7 @@
         "sale_management",  # Only 12.0
         "stock",
         "web_sheet_full_width",
+        "delivery",
     ],
     "maintainer": "Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>",
     "installable": True,

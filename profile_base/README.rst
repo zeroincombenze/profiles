@@ -1,8 +1,8 @@
 ==============================================
-|icon| Base profile/Profilo di base 12.0.1.0.3
+|icon| Base profile/Profilo di base 12.0.1.0.4
 ==============================================
 
-**Base setup for minimal configuration**
+**Base setup for minimal configuration Zeroincombenze(R)**
 
 .. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_base/static/description/icon.png
 
@@ -52,7 +52,7 @@ Sono installati i seguenti moduli:
 
 |thumbnail|
 
-.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_base/static/description/
+.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_base/static/description/description.png
 
 
 Getting started | Primi passi
@@ -154,9 +154,10 @@ ChangeLog History | Cronologia modifiche
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * [IMP] Use l10n_it_coa / PdC da l10n_it_coa
+* [IMP] Added module "web_sheet_full_width" and "delivery"
 * [QUA]
 
-12.0.1.0.3 (2024-01-14)
+12.0.1.0.3 (2018-10-04)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * [IMP] No CoA installer / Nessun P.d.C installato
@@ -210,7 +211,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2024-06-22
+Last Update / Ultimo aggiornamento: 2024-06-24
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
