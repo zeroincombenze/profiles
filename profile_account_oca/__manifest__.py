@@ -1,13 +1,13 @@
 #
-# Copyright 2016-24 SHS-AV s.r.l. <https://www.zeroincombenze.it>
+# Copyright 2018-24 SHS-AV s.r.l. <https://www.zeroincombenze.it>
 #
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
 {
     "name": "Accounting Profile",
-    "version": "12.0.0.1.2",
+    "version": "12.0.1.0.0",
     "category": "Technical Settings",
-    "summary": "Accounting installation profile",
+    "summary": "Accounting installation profile (OCA)",
     "author": "SHS-AV s.r.l.",
     "website": "https://www.zeroincombenze.it/crm",
     "development_status": "Beta",
@@ -32,7 +32,7 @@
         # "account_move_line_type",                           # Only 12.0,
         "account_move_template",
         # "account_payment_term_plus",                        # Only 12.0
-        # "accounting_pdf_reports",                           # Only 12.0
+        "accounting_pdf_reports",                           # Only 12.0
         # "account_tax_unique",                               # Only 12.0
         "date_range",                                  # Only 12.0
         # "l10n_eu_account",

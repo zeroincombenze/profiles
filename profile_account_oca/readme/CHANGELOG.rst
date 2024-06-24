@@ -1,3 +1,9 @@
+12.0.1.0.0 (2024-06-24)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Added "account_group" "account_invoice_check_total" "account_financial_report_qweb"
+* [QUA]
+
 12.0.0.1.0 (2018-10-04)
 ~~~~~~~~~~~~~~~~~~~~~~~
 

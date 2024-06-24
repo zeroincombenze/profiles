@@ -1,13 +1,13 @@
 #
-# Copyright 2016-24 SHS-AV s.r.l. <https://www.zeroincombenze.it>
+# Copyright 2018-24 SHS-AV s.r.l. <https://www.zeroincombenze.it>
 #
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
 {
     "name": "Accounting Profile",
-    "version": "12.0.0.1.2",
+    "version": "12.0.1.0.0",
     "category": "Technical Settings",
-    "summary": "Accounting installation profile",
+    "summary": "Accounting installation profile (Zeroincombenze)",
     "author": "SHS-AV s.r.l.",
     "website": "https://www.zeroincombenze.it/crm",
     "development_status": "Beta",
@@ -30,10 +30,12 @@
         "account_move_template",
         "account_payment_term_plus",
         "account_tax_unique",
+        "accounting_pdf_reports",  # Only 12.0
         "date_range_plus",
         "l10n_eu_account",
         "l10n_it_account_balance_report",
         "l10n_it_balance",
+        "l10n_it_balance_assets",
         "l10n_it_central_journal",
         "l10n_it_dichiarazione_intento",
         "l10n_it_fiscalcode",
@@ -44,7 +46,7 @@
         "l10n_it_split_payment",
         "l10n_it_validations",
         "l10n_it_vat_registries_plus",
-        "l10n_it_vat_statement_communication",
+        "l10n_it_vat_statement_communication_plus",
         "l10n_it_withholding_tax",
     ],
     "maintainer": "Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>",
