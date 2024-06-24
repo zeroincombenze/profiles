@@ -1,0 +1,38 @@
+2024-06-22 16:26:45,000 780891 DAEMON test_profile_common_12 run_odoo_debug.sh: cd /home/odoo/12.0/venv_odoo && source ./bin/activate
+2024-06-22 14:28:10,596 782687 INFO ? odoo: Odoo version 12.0 
+2024-06-22 14:28:10,596 782687 INFO ? odoo: Using configuration file at /home/odoo/12.0/profiles/profile_common/tests/logs/zero12.profiles.profile_common.conf 
+2024-06-22 14:28:10,596 782687 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo12/addons/12.0', '/home/odoo/12.0/odoo/addons', '/home/odoo/12.0/addons', '/home/odoo/.local/share/Odoo12/addons', '/home/odoo/12.0/account-analytic', '/home/odoo/12.0/account-budgeting', '/home/odoo/12.0/account-closing', '/home/odoo/12.0/account-consolidation', '/home/odoo/12.0/account-financial-reporting', '/home/odoo/12.0/account-financial-tools', '/home/odoo/12.0/account-fiscal-rule', '/home/odoo/12.0/account-invoice-reporting', '/home/odoo/12.0/account-invoicing', '/home/odoo/12.0/account-payment', '/home/odoo/12.0/account-reconcile', '/home/odoo/12.0/bank-payment', '/home/odoo/12.0/bank-statement-import', '/home/odoo/12.0/brand', '/home/odoo/12.0/calendar', '/home/odoo/12.0/commission', '/home/odoo/12.0/community-data-files', '/home/odoo/12.0/connector', '/home/odoo/12.0/contract', '/home/odoo/12.0/credit-control', '/home/odoo/12.0/crm', '/home/odoo/12.0/currency', '/home/odoo/12.0/data-protection', '/home/odoo/12.0/ddmrp', '/home/odoo/12.0/delivery-carrier', '/home/odoo/12.0/dms', '/home/odoo/12.0/e-commerce', '/home/odoo/12.0/edi', '/home/odoo/12.0/helpdesk', '/home/odoo/12.0/hr', '/home/odoo/12.0/intrastat-extrastat', '/home/odoo/12.0/knowledge', '/home/odoo/12.0/l10n-italy', '/home/odoo/12.0/l10n-italy-supplemental', '/home/odoo/12.0/maintenance', '/home/odoo/12.0/management-system', '/home/odoo/12.0/manufacture', '/home/odoo/12.0/margin-analysis', '/home/odoo/12.0/mis-builder', '/home/odoo/12.0/multi-company', '/home/odoo/12.0/partner-contact', '/home/odoo/12.0/product-attribute', '/home/odoo/12.0/product-kitting', '/home/odoo/12.0/product-pack', '/home/odoo/12.0/product-variant', '/home/odoo/12.0/profiles', '/home/odoo/12.0/project', '/home/odoo/12.0/purchase-reporting', '/home/odoo/12.0/purchase-workflow', '/home/odoo/12.0/queue', '/home/odoo/12.0/report-print-send', '/home/odoo/12.0/reporting-engine', '/home/odoo/12.0/rma', '/home/odoo/12.0/sale-financial', '/home/odoo/12.0/sale-reporting', '/home/odoo/12.0/sale-workflow', '/home/odoo/12.0/search-engine', '/home/odoo/12.0/server-auth', '/home/odoo/12.0/server-backend', '/home/odoo/12.0/server-brand', '/home/odoo/12.0/server-env', '/home/odoo/12.0/server-tools', '/home/odoo/12.0/server-ux', '/home/odoo/12.0/social', '/home/odoo/12.0/stock-logistics-barcode', '/home/odoo/12.0/stock-logistics-reporting', '/home/odoo/12.0/stock-logistics-tracking', '/home/odoo/12.0/stock-logistics-transport', '/home/odoo/12.0/stock-logistics-warehouse', '/home/odoo/12.0/stock-logistics-workflow', '/home/odoo/12.0/storage', '/home/odoo/12.0/timesheet', '/home/odoo/12.0/uncovered', '/home/odoo/12.0/web', '/home/odoo/12.0/webhook', '/home/odoo/12.0/website', '/home/odoo/12.0/wms', '/home/odoo/12.0/zerobug-test', '/home/odoo/12.0/venv_odoo/lib/python3.7/site-packages/odoo/addons'] 
+2024-06-22 14:28:10,597 782687 INFO ? odoo: database: odoo12@localhost:5432 
+2024-06-22 14:28:10,758 782687 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /home/odoo/12.0/venv_odoo/bin/wkhtmltopdf 
+2024-06-22 14:28:10,851 782687 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:19402 
+2024-06-22 14:28:10,871 782687 INFO test_profile_common_12 odoo.modules.loading: loading 1 modules... 
+2024-06-22 14:28:10,880 782687 INFO test_profile_common_12 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2024-06-22 14:28:10,998 782687 INFO test_profile_common_12 odoo.modules.loading: updating modules list 
+2024-06-22 14:28:11,002 782687 INFO test_profile_common_12 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2024-06-22 14:28:20,722 782687 INFO test_profile_common_12 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['profile_common'] to user __system__ #1 via n/a 
+2024-06-22 14:28:21,021 782687 INFO test_profile_common_12 odoo.modules.loading: loading 29 modules... 
+2024-06-22 14:28:21,263 782687 INFO test_profile_common_12 odoo.modules.loading: 29 modules loaded in 0.24s, 0 queries 
+2024-06-22 14:28:21,271 782687 INFO test_profile_common_12 odoo.modules.loading: loading 30 modules... 
+2024-06-22 14:28:21,687 782687 INFO test_profile_common_12 odoo.modules.registry: module profile_common: creating or updating database tables 
+2024-06-22 14:28:21,701 782687 INFO test_profile_common_12 odoo.modules.loading: loading profile_common/data/initial_conf.xml 
+2024-06-22 14:28:21,747 782687 WARNING test_profile_common_12 odoo.models: res.partner.write() with unknown fields: currency_id 
+2024-06-22 14:28:21,819 782687 INFO test_profile_common_12 odoo.modules.loading: Module profile_common: loading demo 
+2024-06-22 14:28:21,836 782687 INFO test_profile_common_12 odoo.addons.base.models.ir_translation: module profile_common: no translation for language it 
+2024-06-22 14:28:21,900 782687 INFO test_profile_common_12 odoo.modules.loading: 30 modules loaded in 0.63s, 3 queries 
+2024-06-22 14:28:22,427 782687 INFO test_profile_common_12 odoo.modules.loading: Modules loaded. 
+2024-06-22 14:28:22,438 782687 INFO test_profile_common_12 odoo.service.server: Starting post tests 
+2024-06-22 14:28:22,439 782687 INFO test_profile_common_12 odoo.service.server: All post-tested in 0.00s, 0 queries 
+2024-06-22 14:28:22,439 782687 INFO test_profile_common_12 odoo.service.server: Initiating shutdown 
+2024-06-22 14:28:22,439 782687 INFO test_profile_common_12 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+
++===================================================================
+| please test [36mprofile_common[0m (12.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/12.0/profiles/profile_common/tests/logs/coverage_profile_common_12rc -m
+[34;107mName                                      Stmts   Miss  Cover   Missing
+-----------------------------------------------------------------------
+profiles/profile_common/post_install.py      14      0   100%
+-----------------------------------------------------------------------
+TOTAL                                        14      0   100%
+[0m

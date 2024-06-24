@@ -1,5 +1,4 @@
-Modulo con impostazioni base da installare **dopo** aver installato il modulo di
-localizzazione quali *l10n_it_coa* o *l10n_it*.
+Modulo con impostazioni base.
 
 Sono installati i seguenti moduli:
 
@@ -8,6 +7,7 @@ Sono installati i seguenti moduli:
 * disable_odoo_online (riferimenti odoo.com)
 * portal_odoo_debranding (debranding Odoo su portale)
 .. $fi
+* l10n_it_coa (Piano dei conti Zeroincombenze)
 * l10n_it_fiscalcode
 * purchase (acquisti)
 * purchase_discount (sconti su acquisti)
@@ -16,5 +16,7 @@ Sono installati i seguenti moduli:
 * repository_check (aggiornamenti repository)
 .. $fi
 * sale (vendite)
+.. $if branch in '12.0'
 * sale_management (gestione vendite)
+.. $fi
 * stock (magazzino)

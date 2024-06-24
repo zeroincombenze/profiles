@@ -1,5 +1,5 @@
 #
-# Copyright 2018-22 SHS-AV s.r.l. <https://www.zeroincombenze.it>
+# Copyright 2016-24 SHS-AV s.r.l. <https://www.zeroincombenze.it>
 #
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
@@ -9,47 +9,41 @@
     "category": "Technical Settings",
     "summary": "Accounting installation profile",
     "author": "SHS-AV s.r.l.",
-    "website": "https://www.zeroincombenze.it",
+    "website": "https://www.zeroincombenze.it/crm",
     "development_status": "Beta",
     "license": "AGPL-3",
     "depends": [
         "profile_common",
         "account",
-        "account_banking_common",                           # Only 12.0
+        "account_banking_common",
         "account_cancel",
-        # "account_cancel_payment",                           # Only 12.0
-        "account_financial_report",
-        "account_vat_period_end_statement",
-        "l10n_it_central_journal",
-        "account_duedates",                                 # Only 12.0
+        "account_payment_delete",
+        "l10n_it_vat_statement",
+        "account_duedates",
         "account_financial_report",
         "account_fiscal_year",
-        "account_invoice_constraint_chronology_nodraft",    # Only 12.0
+        "account_invoice_constraint_chronology_nodraft",
         "account_invoice_force_number",
-        "account_invoice_zero_amount",                      # Only 12.0
-        "account_move_line_type",                           # Only 12.0,
+        "account_invoice_zero_amount",
+        "account_tax_balance",
+        "account_move_line_type",
         "account_move_template",
-        "account_payment_term_plus",                        # Only 12.0
-        # "accounting_pdf_reports",                           # Only 12.0
-        "account_tax_unique",                               # Only 12.0
-        "date_range_plus",                                  # Only 12.0
+        "account_payment_term_plus",
+        "account_tax_unique",
+        "date_range_plus",
         "l10n_eu_account",
-        "l10n_it_account_balance_report",                   # Only 12.0
+        "l10n_it_account_balance_report",
         "l10n_it_balance",
+        "l10n_it_central_journal",
         "l10n_it_dichiarazione_intento",
-        "l10n_it_fatturapa_export_zip",
-        "l10n_it_fatturapa_in",
-        "l10n_it_fatturapa_out",
-        "l10n_it_fatturapa_out_di",
-        "l10n_it_invoices_data_communication",
         "l10n_it_fiscalcode",
+        "l10n_it_invoices_data_communication",
         "l10n_it_mastrini",
         "l10n_it_menu",
         "l10n_it_reverse_charge",
         "l10n_it_split_payment",
         "l10n_it_validations",
         "l10n_it_vat_registries_plus",
-        "l10n_it_vat_statement",
         "l10n_it_vat_statement_communication",
         "l10n_it_withholding_tax",
     ],

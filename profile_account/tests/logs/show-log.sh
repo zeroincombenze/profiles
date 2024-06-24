@@ -1,1 +1,1 @@
-less -R $(readlink -f $(dirname $0))/profile_account_20240117.txt
+less -R $(readlink -f $(dirname $0))/profile_account_20240622.txt

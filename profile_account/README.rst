@@ -14,29 +14,27 @@
 Overview | Panoramica
 =====================
 
-|en| Module to install accounting modules.
+|en| Module to install accounting modules (distribution Zeroincombenze).
 
 It installs:
 
 * account (many modules)
 * account report modules
-* e-invoice modules
 * vat modules
 
 
-|it| Modulo per l'installazione dei moduli contabili
+|it| Modulo per l'installazione dei moduli contabili  (distribuzione Zeroincombenze).
 
 Installa:
 
 * contabilità (diversi moduli)
 * moduli di stampa contabile
-* fatturazione elettronica
 * moduli IVA
 
 
 |thumbnail|
 
-.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_account/static/description/description.png
+.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_account/static/description/
 
 
 Getting started | Primi passi
@@ -141,8 +139,8 @@ ChangeLog History | Cronologia modifiche
 
 
 
-Credits | Didascalie
-====================
+Credits | Ringraziamenti
+========================
 
 Copyright
 ---------
@@ -157,8 +155,8 @@ Authors | Autori
 
 
 
-Contributors | Contributi da
-----------------------------
+Contributors | Partecipanti
+---------------------------
 
 * `Antonio Maria Vigliotti <antoniomaria.vigliotti@gmail.com>`__
 
@@ -188,7 +186,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2024-01-17
+Last Update / Ultimo aggiornamento: 2024-06-22
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status

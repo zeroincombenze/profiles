@@ -1,5 +1,5 @@
 #
-# Copyright 2018-22 SHS-AV s.r.l. <https://www.zeroincombenze.it>
+# Copyright 2018-24 SHS-AV s.r.l. <https://www.zeroincombenze.it>
 #
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
@@ -9,7 +9,7 @@
     "category": "Technical Settings",
     "summary": "Common setup for all profiles",
     "author": "SHS-AV s.r.l.",
-    "website": "https://www.zeroincombenze.it",
+    "website": "https://www.zeroincombenze.it/crm",
     "development_status": "Beta",
     "license": "AGPL-3",
     "depends": [

@@ -1,5 +1,4 @@
-Module with common setup to customize to install **after** you installed localization
-module, like *l10n_it_coa* or *l10n_it*
+Module with common setup to customize.
 
 It installs:
 
@@ -8,6 +7,7 @@ It installs:
 * disable_odoo_online
 * portal_odoo_debranding
 .. $fi
+* l10n_it_coa (Chart of Account Zeroincombenze)
 * l10n_it_fiscalcode
 * purchase
 * purchase_discount
@@ -16,5 +16,7 @@ It installs:
 * repository_check
 .. $fi
 * sale
+.. $if branch in '12.0'
 * sale_management
+.. $fi
 * stock

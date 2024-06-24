@@ -14,14 +14,14 @@
 Overview | Panoramica
 =====================
 
-|en| Module with common setup to customize to install **after** you installed localization
-module, like *l10n_it_coa* or *l10n_it*
+|en| Module with common setup to customize.
 
 It installs:
 
 * remove_odoo_enterprise
 * disable_odoo_online
 * portal_odoo_debranding
+* l10n_it_coa (Chart of Account Zeroincombenze)
 * l10n_it_fiscalcode
 * purchase
 * purchase_discount
@@ -32,14 +32,14 @@ It installs:
 * stock
 
 
-|it| Modulo con impostazioni base da installare **dopo** aver installato il modulo di
-localizzazione quali *l10n_it_coa* o *l10n_it*.
+|it| Modulo con impostazioni base.
 
 Sono installati i seguenti moduli:
 
 * remove_odoo_enterprise (rimozione link per Odoo Enterprise)
 * disable_odoo_online (riferimenti odoo.com)
 * portal_odoo_debranding (debranding Odoo su portale)
+* l10n_it_coa (Piano dei conti Zeroincombenze)
 * l10n_it_fiscalcode
 * purchase (acquisti)
 * purchase_discount (sconti su acquisti)
@@ -52,7 +52,7 @@ Sono installati i seguenti moduli:
 
 |thumbnail|
 
-.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_base/static/description/description.png
+.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_base/static/description/
 
 
 Getting started | Primi passi
@@ -150,21 +150,21 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 ChangeLog History | Cronologia modifiche
 ----------------------------------------
 
-12.0.1.0.3 (2018-10-04)
+12.0.1.0.4 (2024-06-22)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Use l10n_it_coa / PdC da l10n_it_coa
+* [QUA]
+
+12.0.1.0.3 (2024-01-14)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * [IMP] No CoA installer / Nessun P.d.C installato
-* [QUA]
-
-12.0.0.1.0 (2018-10-04)
-~~~~~~~~~~~~~~~~~~~~~~~
-
-* Initial implementation / Implementazione iniziale
 
 
 
-Credits | Didascalie
-====================
+Credits | Ringraziamenti
+========================
 
 Copyright
 ---------
@@ -179,8 +179,8 @@ Authors | Autori
 
 
 
-Contributors | Contributi da
-----------------------------
+Contributors | Partecipanti
+---------------------------
 
 * `Antonio Maria Vigliotti <antoniomaria.vigliotti@gmail.com>`__
 
@@ -210,7 +210,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2024-01-16
+Last Update / Ultimo aggiornamento: 2024-06-22
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
