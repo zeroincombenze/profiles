@@ -1,5 +1,5 @@
 ===============================================
-|icon| Common profile/Profilo comune 12.0.1.0.2
+|icon| Common profile/Profilo comune 12.0.1.0.3
 ===============================================
 
 **Common setup for all profiles**
@@ -154,7 +154,14 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 ChangeLog History | Cronologia modifiche
 ----------------------------------------
 
-12.0.0.1.0 (2018-10-04)
+12.0.1.0.3 (2024-06-24)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Added "contacts" module
+* [IMP] Set lang "it_IT", tz "Europe/Rome" and currency "EUR"
+* [QUA] Test coverage 100% (14: 0+14) [0 TestPoints] - quality rating 61 (target 100)
+
+12.0.0.1.0 (2016-10-06)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * Initial implementation / Implementazione iniziale
@@ -208,7 +215,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2024-06-22
+Last Update / Ultimo aggiornamento: 2024-06-24
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status

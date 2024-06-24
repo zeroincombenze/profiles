@@ -5,7 +5,7 @@
 #
 {
     "name": "Common profile",
-    "version": "12.0.1.0.2",
+    "version": "12.0.1.0.3",
     "category": "Technical Settings",
     "summary": "Common setup for all profiles",
     "author": "SHS-AV s.r.l.",
@@ -15,6 +15,7 @@
     "depends": [
         "calendar",
         "contacts",
+        # "mail",     # only 10.0
         "mail",
         "product",
         "stock",
