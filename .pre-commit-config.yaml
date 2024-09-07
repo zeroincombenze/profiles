@@ -74,7 +74,7 @@ repos:
       - id: arcangelo
         name: arcangelo
         language: python
-        entry: arcangelo -i -b15.0
+        entry: arcangelo -i -b16.0
       # odoo repositories
       - id: please_docs
         name: please docs
