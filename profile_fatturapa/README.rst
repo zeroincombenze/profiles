@@ -1,10 +1,10 @@
-=====================================================
-|icon| E-Invoice Profile/Profilo e-fattura 10.0.0.1.0
-=====================================================
+==========================================================
+|icon| FatturaPA Profile/Profilo FatturaPA 10.0.12.0.0.1.1
+==========================================================
 
-**E-Invoicing modules installation profile**
+**Modules installation profile for FatturaPA**
 
-.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_einvoice/static/description/icon.png
+.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_fatturapa/static/description/icon.png
 
 
 .. contents::
@@ -30,7 +30,7 @@ Installa:
 
 |thumbnail|
 
-.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_einvoice/static/description/
+.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_fatturapa/static/description/
 
 
 Getting started | Primi passi
@@ -128,8 +128,14 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 ChangeLog History | Cronologia modifiche
 ----------------------------------------
 
-10.0.0.1.0 (2018-10-04)
+10.0.1.0.1 (2025-03-14)
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Minor aesthetic upgrade / Modifiche estetiche
+* [QUA]
+
+10.0.0
+~~~~~~
 
 * Initial implementation / Implementazione iniziale
 
@@ -182,7 +188,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2024-06-21
+Last Update / Ultimo aggiornamento: 2025-03-17
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status

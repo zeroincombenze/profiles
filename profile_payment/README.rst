@@ -1,8 +1,8 @@
-===================================================
-|icon| Payment profile/Profilo pagamenti 10.0.1.0.2
-===================================================
+=================================================================================
+|icon| Payment profile Zeroincombenze/Profilo pagamenti Zeroincombenze 10.0.1.0.2
+=================================================================================
 
-**Payment and financial modules installation**
+**Payment and financial modules installation Zeroincombenze(R)**
 
 .. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_payment/static/description/icon.png
 
@@ -132,6 +132,12 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 ChangeLog History | Cronologia modifiche
 ----------------------------------------
 
+10.0.1.0.2 (2025-03-14)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Minor aesthetic upgrade / Modifiche estetiche
+* [QUA]
+
 10.0.0.1.0 (2016-10-06)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -186,7 +192,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2024-06-24
+Last Update / Ultimo aggiornamento: 2025-03-17
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status

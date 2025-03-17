@@ -1,8 +1,8 @@
-==========================================================
-|icon| E-Invoice Profile/Profilo e-fattura 10.0.12.0.0.1.0
-==========================================================
+========================================================================================
+|icon| E-Invoice Profile Zeroincombenze/Profilo e-fattura Zeroincombenze 10.0.12.0.0.1.1
+========================================================================================
 
-**E-Invoicing modules installation profile**
+**E-Invoicing modules installation profile Zeroincombenze(R)**
 
 .. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/10.0/profile_einvoice/static/description/icon.png
 
@@ -132,6 +132,12 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 ChangeLog History | Cronologia modifiche
 ----------------------------------------
 
+10.0.1.0.1 (2025-03-14)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Minor aesthetic upgrade / Modifiche estetiche
+* [QUA]
+
 10.0.0
 ~~~~~~
 
@@ -186,7 +192,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2024-06-22
+Last Update / Ultimo aggiornamento: 2025-03-17
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status

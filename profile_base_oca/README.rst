@@ -1,6 +1,6 @@
-==============================================
-|icon| Base profile/Profilo di base 10.0.1.0.3
-==============================================
+======================================================
+|icon| Base profile OCA/Profilo di base OCA 10.0.1.0.5
+======================================================
 
 **Base setup for minimal configuration OCA**
 
@@ -140,6 +140,12 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 ChangeLog History | Cronologia modifiche
 ----------------------------------------
 
+10.0.1.0.5 (2025-03-14)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Minor aesthetic upgrade / Modifiche estetiche
+* [QUA]
+
 10.0.0
 ~~~~~~
 
@@ -200,7 +206,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2024-06-22
+Last Update / Ultimo aggiornamento: 2025-03-17
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
