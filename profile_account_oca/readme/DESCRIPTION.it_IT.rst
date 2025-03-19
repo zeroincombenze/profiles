@@ -1,4 +1,4 @@
-Modulo per l'installazione dei moduli contabili (distribuzione OCA).
+Modulo per l'installazione dei moduli contabili (distribution OCA).
 
 Installa:
 

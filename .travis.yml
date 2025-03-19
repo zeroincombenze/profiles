@@ -9,7 +9,6 @@ cache:
     - $HOME/.cache/pip
 
 python:
-  - "3.6"
   - "3.7"
 
 virtualenv:
@@ -40,14 +39,15 @@ addons:
       - libssl-dev
       # - nodejs                          # Pre-installed
       # - npm                             # Pre-installed
-      - python3-dev
+      - python-dev
       # - python-setuptools               # Pre-installed
       # - wkhtmltopdf                     # Pre-installed
       - zlib1g
 
 before_install:
   # Use Zeroincombenze(R) tools
-  - git clone https://github.com/zeroincombenze/tools.git ${HOME}/tools --single-branch --depth=1
+  - git clone https://github.com/zeroincombenze/tools.git ${HOME}/tools --single-branch
+    --depth=1
   - ${HOME}/tools/install_tools.sh -qpt
   - source ${HOME}/devel/activate_tools
   # - "export DISPLAY=:99.0"
@@ -63,7 +63,7 @@ install:
 env:
   global:
     - TRAVIS_DEBUG_MODE="2"
-    - WKHTMLTOPDF_VERSION="0.12.6"
+    - WKHTMLTOPDF_VERSION="0.12.4"
     - VERSION="10.0" TESTS="0" LINT_CHECK="0" ODOO_TNLBOT="0" WEBSITE_REPO="1"
 
   matrix:

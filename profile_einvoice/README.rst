@@ -1,8 +1,8 @@
-=====================================================
-|icon| E-Invoice Profile/Profilo e-fattura 12.0.0.1.0
-=====================================================
+========================================================================================
+|icon| E-Invoice Profile Zeroincombenze/Profilo e-fattura Zeroincombenze 12.0.12.0.0.1.1
+========================================================================================
 
-**E-Invoicing modules installation profile**
+**E-Invoicing modules installation profile Zeroincombenze(R)**
 
 .. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_einvoice/static/description/icon.png
 
@@ -19,6 +19,8 @@ Overview | Panoramica
 It installs:
 
 * send to SdI
+* e-invoice out
+* e-invoice in
 
 
 |it| Modulo per l'installazione dei moduli di fatturazione elettronica
@@ -26,6 +28,8 @@ It installs:
 Installa:
 
 * Invio allo SdI
+* Generazione fattura elettronica uscita
+* Gestione fattura elettronica in ingresso
 
 
 |thumbnail|
@@ -128,6 +132,12 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 ChangeLog History | Cronologia modifiche
 ----------------------------------------
 
+12.0.1.0.1 (2025-03-14)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Minor aesthetic upgrade / Modifiche estetiche
+* [QUA]
+
 12.0.0.1.0 (2018-10-04)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -182,7 +192,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2024-06-22
+Last Update / Ultimo aggiornamento: 2025-03-19
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status

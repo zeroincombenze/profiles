@@ -1,3 +1,9 @@
+12.0.1.0.5 (2025-03-14)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Minor aesthetic upgrade / Modifiche estetiche
+* [QUA]
+
 12.0.1.0.4 (2024-06-22)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -9,7 +15,7 @@
 
 * [IMP] No CoA installer / Nessun P.d.C installato
 
-10.0.1.0.2 (2013-09-23)
+12.0.1.0.2 (2013-09-23)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-* Initial implementation / Implementazione iniziale
+* [FIX] New dependency name l10n_it_coa replaces old l10n_it_fiscal

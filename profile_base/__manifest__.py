@@ -1,11 +1,11 @@
 #
-# Copyright 2018-24 SHS-AV s.r.l. <https://www.zeroincombenze.it>
+# Copyright 2016-25 SHS-AV s.r.l. <https://www.zeroincombenze.it>
 #
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
 {
-    "name": "Base profile",
-    "version": "12.0.1.0.4",
+    "name": "Base profile Zeroincombenze",
+    "version": "12.0.1.0.5",
     "category": "Technical Settings",
     "summary": "Base setup for minimal configuration Zeroincombenze(R)",
     "author": "SHS-AV s.r.l.",

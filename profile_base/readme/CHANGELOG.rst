@@ -1,16 +1,22 @@
-12.0.1.0.4 (2024-06-22)
+12.0.1.0.5 (2025-03-14)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Minor aesthetic upgrade / Modifiche estetiche
+* [QUA]
+
+10.1.0.4 (2024-06-22)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * [IMP] Use l10n_it_coa / PdC da l10n_it_coa
-* [IMP] Added module "web_sheet_full_width" and "delivery"
+* [IMP] Added module "web_sheet_full_width" and "delivery" and "product_by_supplier" and "sale_order_dates"
 * [QUA]
 
-12.0.1.0.3 (2018-10-04)
+12.0.1.0.3 (2024-01-14)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * [IMP] No CoA installer / Nessun P.d.C installato
 
-12.0.0.1.0 (2018-10-04)
+12.0.1.0.2 (2013-09-23)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-* Initial implementation / Implementazione iniziale
+* [FIX] New dependency name l10n_it_coa replaces old l10n_it_fiscal

@@ -1,9 +1,10 @@
-12.0.1.0.2 (2018-10-04)
+12.0.1.0.2 (2025-03-14)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-* [IMP] SEPA modules / Moduli SEPA
+* [IMP] Minor aesthetic upgrade / Modifiche estetiche
+* [QUA]
 
-12.0.0.1.0 (2018-10-04)
+12.0.0.1.0 (2016-10-06)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * Initial implementation / Implementazione iniziale

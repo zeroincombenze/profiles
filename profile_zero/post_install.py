@@ -1,9 +1,9 @@
 #
-# Copyright 2018-22 SHS-AV s.r.l. <https://www.zeroincombenze.it>
+# Copyright 2016-25 SHS-AV s.r.l. <https://www.zeroincombenze.it>
 #
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
-from odoo import api, SUPERUSER_ID
+from odoo import SUPERUSER_ID, api
 
 
 def set_company_default(cr):

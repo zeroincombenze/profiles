@@ -1,5 +1,5 @@
 #
-# Copyright 2018-24 SHS-AV s.r.l. <https://www.zeroincombenze.it>
+# Copyright 2016-25 SHS-AV s.r.l. <https://www.zeroincombenze.it>
 #
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #

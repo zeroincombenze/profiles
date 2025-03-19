@@ -1,4 +1,4 @@
-Modulo per l'installazione dei moduli contabili  (distribuzione Zeroincombenze).
+Modulo per l'installazione dei moduli contabili (distribuzione Zeroincombenze).
 
 Installa:
 

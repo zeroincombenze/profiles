@@ -1,8 +1,8 @@
-==============================================
-|icon| Base profile/Profilo di base 12.0.1.0.3
-==============================================
+======================================================
+|icon| Base profile OCA/Profilo di base OCA 12.0.1.0.5
+======================================================
 
-**Base setup for minimal configuration**
+**Base setup for minimal configuration OCA**
 
 .. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_base_oca/static/description/icon.png
 
@@ -14,15 +14,14 @@
 Overview | Panoramica
 =====================
 
-|en| Module with common setup to customize to install **after** you installed localization
-module, like *l10n_it_coa* or *l10n_it*
+|en| Module with common setup to customize.
 
 It installs:
 
 * remove_odoo_enterprise
 * disable_odoo_online
 * portal_odoo_debranding
-* l10n_it_coa (Chart of Account OCA)
+* l10n_it (Chart of Account OCA)
 * l10n_it_fiscalcode
 * purchase
 * purchase_discount
@@ -151,6 +150,12 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 ChangeLog History | Cronologia modifiche
 ----------------------------------------
 
+12.0.1.0.5 (2025-03-14)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Minor aesthetic upgrade / Modifiche estetiche
+* [QUA]
+
 12.0.1.0.4 (2024-06-22)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -211,7 +216,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2024-06-22
+Last Update / Ultimo aggiornamento: 2025-03-19
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status

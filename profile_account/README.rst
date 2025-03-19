@@ -1,8 +1,8 @@
-======================================================
-|icon| Accounting Profile/Profilo contabile 12.0.1.0.0
-======================================================
+====================================================================================
+|icon| Accounting Profile Zeroincombenze/Profilo contabile Zeroincombenze 12.0.1.0.1
+====================================================================================
 
-**Accounting installation profile (Zeroincombenze)**
+**Accounting installation profile Zeroincombenze(R)**
 
 .. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_account/static/description/icon.png
 
@@ -23,7 +23,7 @@ It installs:
 * vat modules
 
 
-|it| Modulo per l'installazione dei moduli contabili  (distribuzione Zeroincombenze).
+|it| Modulo per l'installazione dei moduli contabili (distribuzione Zeroincombenze).
 
 Installa:
 
@@ -132,16 +132,17 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 ChangeLog History | Cronologia modifiche
 ----------------------------------------
 
+12.0.1.0.1 (2025-03-14)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Minor aesthetic upgrade / Modifiche estetiche
+* [QUA]
+
 12.0.1.0.0 (2024-06-24)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * [IMP] Added "account_group" "account_invoice_check_total" "account_financial_report_qweb"
 * [QUA]
-
-12.0.0.1.0 (2018-10-04)
-~~~~~~~~~~~~~~~~~~~~~~~
-
-* Initial implementation / Implementazione iniziale
 
 
 
@@ -192,7 +193,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2024-06-24
+Last Update / Ultimo aggiornamento: 2025-03-19
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
