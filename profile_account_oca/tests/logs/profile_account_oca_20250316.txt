@@ -1,1 +1,0 @@
-2025-03-16 21:12:50,000 1001321 DAEMON test_profile_account_oca_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
