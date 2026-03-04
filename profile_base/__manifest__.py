@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright 2016-25 SHS-AV s.r.l. <https://www.zeroincombenze.it>
+# Copyright 2016-26 SHS-AV s.r.l. <https://www.zeroincombenze.it>
 #
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
 {
     "name": "Base profile Zeroincombenze",
-    "version": "10.0.1.0.5",
+    "version": "10.0.1.0.6",
     "category": "Technical Settings",
     "summary": "Base setup for minimal configuration Zeroincombenze(R)",
     "author": "SHS-AV s.r.l.",
@@ -15,22 +15,16 @@
     "license": "AGPL-3",
     "depends": [
         "base",
-        # "remove_odoo_enterprise",           # OCA server-brand - Only 12.0
-        # "disable_odoo_online",              # OCA server-brand - Only 12.0
         "l10n_it_coa",
-        "partner_bank",                         # Only 10.0
-        # "portal_odoo_debranding",           # OCA server-brand - Only 12.0
-        # "partner_data_from_vies",
+        "partner_bank",
         "purchase",
         "purchase_discount",
         "report_xlsx",
-        # "repository_check",                  # custom-addons - Only 12.0
         "sale",
-        # "sale_management",  # Only 12.0
         "stock",
         "web_sheet_full_width",
-        "product_by_supplier",      # only 10.0
-        "sale_order_dates",         # Only 10.0
+        "product_by_supplier",
+        "sale_order_dates",
         "delivery",
     ],
     "maintainer": "Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>",

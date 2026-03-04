@@ -1,5 +1,5 @@
 ============================================================================
-|icon| Base profile Zeroincombenze/Profilo di base Zeroincombenze 10.0.1.0.5
+|icon| Base profile Zeroincombenze/Profilo di base Zeroincombenze 10.0.1.0.6
 ============================================================================
 
 **Base setup for minimal configuration Zeroincombenze(R)**
@@ -140,6 +140,12 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 ChangeLog History | Cronologia modifiche
 ----------------------------------------
 
+10.0.1.0.6 (2026-03-04)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Minor aesthetic upgrade / Modifiche estetiche
+* [QUA]
+
 10.0.1.0.5 (2025-03-14)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -152,11 +158,6 @@ ChangeLog History | Cronologia modifiche
 * [IMP] Use l10n_it_coa / PdC da l10n_it_coa
 * [IMP] Added module "web_sheet_full_width" and "delivery" and "product_by_supplier" and "sale_order_dates"
 * [QUA]
-
-10.0.1.0.3 (2024-01-14)
-~~~~~~~~~~~~~~~~~~~~~~~
-
-* [IMP] No CoA installer / Nessun P.d.C installato
 
 
 
@@ -207,7 +208,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2025-03-17
+Last Update / Ultimo aggiornamento: 2026-03-04
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
