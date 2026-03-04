@@ -1,5 +1,5 @@
 ======================================================
-|icon| Accounting Profile/Profilo contabile 10.0.1.0.0
+|icon| Accounting Profile/Profilo contabile 10.0.1.0.2
 ======================================================
 
 **Accounting installation profile OCA**
@@ -132,6 +132,12 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 ChangeLog History | Cronologia modifiche
 ----------------------------------------
 
+10.0.1.0.2 (2026-04-04)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Minor aesthetic upgrade / Modifiche estetiche
+* [QUA]
+
 10.0.1.0.1 (2025-03-14)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -193,7 +199,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2025-03-17
+Last Update / Ultimo aggiornamento: 2026-03-04
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
