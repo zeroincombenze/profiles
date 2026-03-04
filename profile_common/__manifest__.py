@@ -1,11 +1,11 @@
 #
-# Copyright 2018-24 SHS-AV s.r.l. <https://www.zeroincombenze.it>
+# Copyright 2024-26 SHS-AV s.r.l. <https://www.zeroincombenze.it>
 #
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
 {
     "name": "Common profile",
-    "version": "12.0.1.0.3",
+    "version": "18.0.1.0.5",
     "category": "Technical Settings",
     "summary": "Common setup for all profiles",
     "author": "SHS-AV s.r.l.",
@@ -15,11 +15,9 @@
     "depends": [
         "calendar",
         "contacts",
-        # "mail",     # only 10.0
         "mail",
         "product",
         "stock",
-        "web_decimal_numpad_dot",
     ],
     "data": ["data/initial_conf.xml"],
     "maintainer": "Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>",

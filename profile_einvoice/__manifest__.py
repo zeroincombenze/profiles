@@ -5,7 +5,7 @@
 #
 {
     "name": "E-Invoice Profile",
-    "version": "12.0.0.1.0",
+    "version": "18.0.0.1.0",
     "category": "Technical Settings",
     "summary": "E-Invoicing modules installation profile",
     "author": "SHS-AV s.r.l.",

@@ -5,7 +5,7 @@
 #
 {
     "name": "Payment profile",
-    "version": "12.0.1.0.2",
+    "version": "18.0.1.0.2",
     "category": "Technical Settings",
     "summary": "Payment and financial modules installation",
     "author": "SHS-AV s.r.l.",
