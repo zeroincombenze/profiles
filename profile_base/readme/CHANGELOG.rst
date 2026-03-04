@@ -1,8 +1,6 @@
-12.0.1.0.4 (2024-06-22)
+12.0.1.0.5 (2026-04-04)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-* [IMP] Use l10n_it_coa / PdC da l10n_it_coa
-* [IMP] Added module "web_sheet_full_width" and "delivery"
 * [QUA]
 
 12.0.1.0.3 (2018-10-04)

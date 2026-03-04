@@ -4,8 +4,8 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
 {
-    "name": "Base profile",
-    "version": "12.0.1.0.4",
+    "name": "Base profile Zeroincombenze",
+    "version": "14.0.1.0.5",
     "category": "Technical Settings",
     "summary": "Base setup for minimal configuration Zeroincombenze(R)",
     "author": "SHS-AV s.r.l.",
@@ -16,14 +16,12 @@
         "base",
         "remove_odoo_enterprise",           # OCA server-brand - Only 12.0
         "disable_odoo_online",              # OCA server-brand - Only 12.0
-        "l10n_it_coa",
-        # "partner_bank",                         # Only 10.0
+        # "l10n_it_coa",
         "portal_odoo_debranding",           # OCA server-brand - Only 12.0
-        # "partner_data_from_vies",
         "purchase",
         "purchase_discount",
         "report_xlsx",
-        "repository_check",                  # custom-addons - Only 12.0
+        # "repository_check",                  # custom-addons - Only 12.0
         "sale",
         "sale_management",  # Only 12.0
         "stock",

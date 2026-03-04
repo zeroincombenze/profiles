@@ -1,10 +1,10 @@
 ===============================================
-|icon| Common profile/Profilo comune 12.0.1.0.3
+|icon| Common profile/Profilo comune 14.0.1.0.5
 ===============================================
 
 **Common setup for all profiles**
 
-.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_common/static/description/icon.png
+.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/14.0/profile_common/static/description/icon.png
 
 
 .. contents::
@@ -56,7 +56,7 @@ Inoltre:
 
 |thumbnail|
 
-.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_common/static/description/description.png
+.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/14.0/profile_common/static/description/description.png
 
 
 Getting started | Primi passi
@@ -67,9 +67,6 @@ Getting started | Primi passi
 
 Prerequisites | Prerequisiti
 ----------------------------
-
-* python 3.7
-* postgresql 9.6+ (best 10.0+)
 
 ::
 
@@ -99,15 +96,15 @@ Installation | Installazione
 +---------------------------------+------------------------------------------+
 | Suggested deployment is:        | Posizione suggerita per l'installazione: |
 +---------------------------------+------------------------------------------+
-| $HOME/12.0 |
+| $HOME/14.0 |
 +----------------------------------------------------------------------------+
 
 ::
 
     # Odoo repository installation; OCB repository must be installed
-    deploy_odoo clone -r profiles -b 12.0 -G zero -p $HOME/12.0
+    deploy_odoo clone -r profiles -b 14.0 -G zero -p $HOME/14.0
     # Upgrade virtual environment
-    vem amend $HOME/12.0/venv_odoo
+    vem amend $HOME/14.0/venv_odoo
 
 
 
@@ -116,8 +113,8 @@ Upgrade | Aggiornamento
 
 ::
 
-    deploy_odoo update -r profiles -b 12.0 -G zero -p $HOME/12.0
-    vem amend $HOME/12.0/venv_odoo
+    deploy_odoo update -r profiles -b 14.0 -G zero -p $HOME/14.0
+    vem amend $HOME/14.0/venv_odoo
     # Adjust following statements as per your system
     sudo systemctl restart odoo
 
@@ -154,17 +151,17 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 ChangeLog History | Cronologia modifiche
 ----------------------------------------
 
-12.0.1.0.3 (2024-06-24)
-~~~~~~~~~~~~~~~~~~~~~~~
+14.0.0
+~~~~~~
+
+* [QUA] Test coverage 100% (14: 0+14) [0 TestPoints] - quality rating 57 (target 100)
+
+14.0.0
+~~~~~~
 
 * [IMP] Added "contacts" module
 * [IMP] Set lang "it_IT", tz "Europe/Rome" and currency "EUR"
 * [QUA] Test coverage 100% (14: 0+14) [0 TestPoints] - quality rating 61 (target 100)
-
-12.0.0.1.0 (2016-10-06)
-~~~~~~~~~~~~~~~~~~~~~~~
-
-* Initial implementation / Implementazione iniziale
 
 
 
@@ -215,7 +212,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2024-06-24
+Last Update / Ultimo aggiornamento: 2026-03-04
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
@@ -226,8 +223,8 @@ Last Update / Ultimo aggiornamento: 2024-06-24
 .. |license opl| image:: https://img.shields.io/badge/licence-OPL-7379c3.svg
     :target: https://www.odoo.com/documentation/user/14.0/legal/licenses/licenses.html
     :alt: License: OPL
-.. |Try Me| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-12.svg
-    :target: https://erp12.zeroincombenze.it
+.. |Try Me| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-14.svg
+    :target: https://erp14.zeroincombenze.it
     :alt: Try Me
 .. |Zeroincombenze| image:: https://avatars0.githubusercontent.com/u/6972555?s=460&v=4
    :target: https://www.zeroincombenze.it/
