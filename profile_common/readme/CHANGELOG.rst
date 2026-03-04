@@ -1,3 +1,9 @@
+12.0.1.0.5 (2026-03-04)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Minor aesthetic upgrade / Modifiche estetiche
+* [QUA] Test coverage 100% (14: 0+14) [0 TestPoints] - quality rating 57 (target 100)
+
 12.0.1.0.4 (2025-03-19)
 ~~~~~~~~~~~~~~~~~~~~~~~
 

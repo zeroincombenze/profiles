@@ -1,5 +1,5 @@
 ===============================================
-|icon| Common profile/Profilo comune 12.0.1.0.4
+|icon| Common profile/Profilo comune 12.0.1.0.5
 ===============================================
 
 **Common setup for all profiles**
@@ -154,6 +154,12 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 ChangeLog History | Cronologia modifiche
 ----------------------------------------
 
+12.0.1.0.5 (2026-03-04)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Minor aesthetic upgrade / Modifiche estetiche
+* [QUA] Test coverage 100% (14: 0+14) [0 TestPoints] - quality rating 57 (target 100)
+
 12.0.1.0.4 (2025-03-19)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -216,7 +222,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2025-03-19
+Last Update / Ultimo aggiornamento: 2026-03-04
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status

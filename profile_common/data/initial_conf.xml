@@ -13,13 +13,15 @@
     </record>
 
     <!-- Base company -->
+    <!--
     <record id="base.main_partner" model="res.partner">
         <field name="currency_id" ref="base.EUR"/>
     </record>
+    -->
 
     <record id="base.main_company" model="res.company">
         <field name="country_id" ref="base.it"/>
-        <field name="currency_id" ref="base.EUR"/>
+        <!-- <field name="currency_id" ref="base.EUR"/> -->
     </record>
 
 </odoo>
