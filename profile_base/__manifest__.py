@@ -1,5 +1,5 @@
 #
-# Copyright 2016-25 SHS-AV s.r.l. <https://www.zeroincombenze.it>
+# Copyright 2018-26 SHS-AV s.r.l. <https://www.zeroincombenze.it>
 #
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 #
@@ -14,18 +14,16 @@
     "license": "AGPL-3",
     "depends": [
         "base",
-        "remove_odoo_enterprise",           # OCA server-brand - Only 12.0
-        "disable_odoo_online",              # OCA server-brand - Only 12.0
+        "remove_odoo_enterprise",
+        "disable_odoo_online",
         "l10n_it_coa",
-        # "partner_bank",                         # Only 10.0
-        "portal_odoo_debranding",           # OCA server-brand - Only 12.0
-        # "partner_data_from_vies",
+        "portal_odoo_debranding",
         "purchase",
         "purchase_discount",
         "report_xlsx",
-        "repository_check",                  # custom-addons - Only 12.0
+        "repository_check",
         "sale",
-        "sale_management",  # Only 12.0
+        "sale_management",
         "stock",
         "web_sheet_full_width",
         "delivery",

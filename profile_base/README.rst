@@ -163,11 +163,6 @@ ChangeLog History | Cronologia modifiche
 * [IMP] Added module "web_sheet_full_width" and "delivery" and "product_by_supplier" and "sale_order_dates"
 * [QUA]
 
-12.0.1.0.3 (2024-01-14)
-~~~~~~~~~~~~~~~~~~~~~~~
-
-* [IMP] No CoA installer / Nessun P.d.C installato
-
 
 
 Credits | Ringraziamenti
@@ -217,7 +212,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2025-03-19
+Last Update / Ultimo aggiornamento: 2026-03-04
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
