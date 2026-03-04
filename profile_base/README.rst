@@ -1,10 +1,10 @@
-==============================================
-|icon| Base profile/Profilo di base 12.0.1.0.4
-==============================================
+=============================================================
+|icon| Base profile Zeroincombenze/Profilo di base 18.0.1.0.5
+=============================================================
 
 **Base setup for minimal configuration Zeroincombenze(R)**
 
-.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_base/static/description/icon.png
+.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/18.0/profile_base/static/description/icon.png
 
 
 .. contents::
@@ -18,17 +18,12 @@ Overview | Panoramica
 
 It installs:
 
-* remove_odoo_enterprise
-* disable_odoo_online
-* portal_odoo_debranding
 * l10n_it_coa (Chart of Account Zeroincombenze)
 * l10n_it_fiscalcode
 * purchase
 * purchase_discount
 * report_xlsx
-* repository_check
 * sale
-* sale_management
 * stock
 
 
@@ -36,23 +31,18 @@ It installs:
 
 Sono installati i seguenti moduli:
 
-* remove_odoo_enterprise (rimozione link per Odoo Enterprise)
-* disable_odoo_online (riferimenti odoo.com)
-* portal_odoo_debranding (debranding Odoo su portale)
 * l10n_it_coa (Piano dei conti Zeroincombenze)
 * l10n_it_fiscalcode
 * purchase (acquisti)
 * purchase_discount (sconti su acquisti)
 * report_xlsx (esportazione file Excel)
-* repository_check (aggiornamenti repository)
 * sale (vendite)
-* sale_management (gestione vendite)
 * stock (magazzino)
 
 
 |thumbnail|
 
-.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/12.0/profile_base/static/description/description.png
+.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/profiles/18.0/profile_base/static/description/description.png
 
 
 Getting started | Primi passi
@@ -63,9 +53,6 @@ Getting started | Primi passi
 
 Prerequisites | Prerequisiti
 ----------------------------
-
-* python 3.7
-* postgresql 9.6+ (best 10.0+)
 
 ::
 
@@ -95,15 +82,15 @@ Installation | Installazione
 +---------------------------------+------------------------------------------+
 | Suggested deployment is:        | Posizione suggerita per l'installazione: |
 +---------------------------------+------------------------------------------+
-| $HOME/12.0 |
+| $HOME/18.0 |
 +----------------------------------------------------------------------------+
 
 ::
 
     # Odoo repository installation; OCB repository must be installed
-    deploy_odoo clone -r profiles -b 12.0 -G zero -p $HOME/12.0
+    deploy_odoo clone -r profiles -b 18.0 -G zero -p $HOME/18.0
     # Upgrade virtual environment
-    vem amend $HOME/12.0/venv_odoo
+    vem amend $HOME/18.0/venv_odoo
 
 
 
@@ -112,8 +99,8 @@ Upgrade | Aggiornamento
 
 ::
 
-    deploy_odoo update -r profiles -b 12.0 -G zero -p $HOME/12.0
-    vem amend $HOME/12.0/venv_odoo
+    deploy_odoo update -r profiles -b 18.0 -G zero -p $HOME/18.0
+    vem amend $HOME/18.0/venv_odoo
     # Adjust following statements as per your system
     sudo systemctl restart odoo
 
@@ -150,15 +137,15 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 ChangeLog History | Cronologia modifiche
 ----------------------------------------
 
-12.0.1.0.4 (2024-06-22)
+18.0.1.0.5 (2026-04-04)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * [IMP] Use l10n_it_coa / PdC da l10n_it_coa
 * [IMP] Added module "web_sheet_full_width" and "delivery"
 * [QUA]
 
-12.0.1.0.3 (2018-10-04)
-~~~~~~~~~~~~~~~~~~~~~~~
+18.0.0
+~~~~~~
 
 * [IMP] No CoA installer / Nessun P.d.C installato
 
@@ -211,7 +198,7 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of profiles project.
 
-Last Update / Ultimo aggiornamento: 2024-06-24
+Last Update / Ultimo aggiornamento: 2026-03-04
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
@@ -222,8 +209,8 @@ Last Update / Ultimo aggiornamento: 2024-06-24
 .. |license opl| image:: https://img.shields.io/badge/licence-OPL-7379c3.svg
     :target: https://www.odoo.com/documentation/user/14.0/legal/licenses/licenses.html
     :alt: License: OPL
-.. |Try Me| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-12.svg
-    :target: https://erp12.zeroincombenze.it
+.. |Try Me| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-18.svg
+    :target: https://erp18.zeroincombenze.it
     :alt: Try Me
 .. |Zeroincombenze| image:: https://avatars0.githubusercontent.com/u/6972555?s=460&v=4
    :target: https://www.zeroincombenze.it/
